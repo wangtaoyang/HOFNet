@@ -20,6 +20,36 @@ $ pip install hofnet
 
 ## Getting Started
 
+### Zeo++ for Porosity Calculation
+
+In this project, **Zeo++** is used to compute the **porosity of hydrogen-bonded organic frameworks (HOFs)**. Porosity is a key physical property that influences gas adsorption performance, and Zeo++ enables efficient and accurate geometric analysis of porous materials.
+
+You can download and install Zeo++ by following the instructions at the official website:
+
+[Download Zeo++](https://www.zeoplusplus.org/)
+
+---
+
+### Download Pretrained Models (Checkpoint Files)
+
+We provide pretrained **HOFNet** model checkpoints to accelerate your downstream experiments. These models are stored on Figshare and can be directly downloaded via the following link:
+
+[Download HOFNet pretrained checkpoints (.ckpt)](https://figshare.com/articles/dataset/HOFNet/28856495)
+
+**Recommended path:** After downloading, place the checkpoint files in the `./ckpt` directory of the project.
+
+---
+
+### Download HOFs Data
+
+The HOF datasets used in this project, including real-world HOF structures, are available for download at the link below:
+
+[Download HOFSyn dataset (hofsyn.tar.gz)](https://figshare.com/articles/dataset/HOFSyn/28856483)
+
+**After extracting** `hofsyn.tar.gz`, you will get a folder named `hof_database_cifs_raw` which contains the collected real HOF structures.
+
+**Recommended path:** Place the extracted data folder inside `./data`.
+
 ### Data Preprocessing
 
 ```python
@@ -38,13 +68,13 @@ prepare_data(root_cifs, root_dataset, downstream=None)
 
 ```bash
 # Calculate molecular fingerprints using cal_fp.py:
-python your_script.py --input_file "./data/real_hofs.json" --output_file "./data/all_fp.json" --files_path "./data/total" --timeout 10
+python cal_fp.py --input_file "./data/real_hofs.json" --output_file "./data/hofs_fp.json" --cifs_path "./data/hof_database_cifs_raw" --timeout 10
 
 # Calculate hydrogen bonds using cal_hbond.py:
-python your_script.py --cifs_path "./hof_database_cifs" --output_json_path "./hof_hbond_data.json"
+python cal_hbond.py --input_file "./data/real_hofs.json"  --output_file "./data/hofs_hbond.json" --cifs_path "./data/hof_database_cifs_raw"
 
 # Calculate pore volume fraction using cal_vfp.py:
-python process_cif.py --json_path "./data/real_hofs.json" --output_json_path "./data/real_hofs_vfp.json" --ZEO_PATH "./zeo++-0.3/network" --cif_dir "./data/total" --radius "0.5" --num_sample "50000" --max_workers 8
+python cal_vfp.py --input_file "./data/real_hofs.json" --output_file "./data/hofs_vfp.json" --cifs_path "./data/hof_database_cifs_raw" --ZEO_PATH "./zeo++-0.3/network" --radius "0.5" --num_sample "50000" --max_workers 8
 ```
 
 In this project, molecular fingerprints, hydrogen bond positions, and pore volume fractions for the training, validation, and test sets have already been computed and saved in `/data/HOF_{}/fold{}` directories.
@@ -53,57 +83,39 @@ In this project, molecular fingerprints, hydrogen bond positions, and pore volum
 
 ```python
 import hofnet
-from pathlib import Path
-import torch
-import torch.nn as nn
-import torch.optim as optim
 import os
-from torch.utils.tensorboard import SummaryWriter
-import numpy as np
-from pathlib import Path
 import hofnet
-from hofnet.examples import example_path
-import pandas as pd
-from sklearn.metrics import confusion_matrix, classification_report, roc_auc_score
-import seaborn as sns
-import matplotlib.pyplot as plt
-import json
 
-# Data root and downstream from example
-fold = 'fold5'
+# real_hof + hofdiff - fold2
+# real_hof - fold1
+fold = 'fold1'
 devices = [0,1,2,3]
 max_epochs = 2000
 batch_size = 8
-root_dataset = f'/mnt/user2/wty/HOF/moftransformer/data/HOF_pretrain_new/{fold}'
-cifs_path = '/mnt/user2/wty/HOF/MOFDiff/mofdiff/data/mof_models/mof_models/bwdb_hoff/hofchecker_1/total'
-fp_file_path = '/mnt/user2/wty/HOF/moftransformer/data/HOF_pretrain_new/all_fp.json'
+root_dataset = f'./data/HOF_pretrain/{fold}'
+cifs_path = './hof_database_cifs_raw/total'
 task = 'vfp'
 downstream = task
 
-log_dir = f'/mnt/user2/wty/HOF/logs/HOF_pretrain/{fold}'
+log_dir = f'./logs/HOF_pretrain/{fold}'
 load_path = None
-# load_path = 'pmtransformer'
 os.makedirs(log_dir, exist_ok=True)
 
 hofnet.run(root_dataset, downstream, log_dir=log_dir,                   
                 max_epochs=max_epochs, batch_size=batch_size, devices=devices, loss_names=['hbond', 'fp', 'vfp'],
-                cifs_path=cifs_path, fold=fold, fp_file_path=fp_file_path,
-                load_path=load_path, learning_rate=1e-5)
+                cifs_path=cifs_path, fold=fold, load_path=load_path, learning_rate=1e-5, early_stop=100)
 ```
 
 ### Fine-Tuning
 
 ```python
-# train.py
-
 import os
 from pathlib import Path
 import hofnet
-import torch
-from hofnet.run import run
 
-# Configuration and paths
-fold = 'fold5'
+# real_hof + hofdiff - fold2
+# real_hof - fold1
+fold = 'fold1'
 devices = [1]
 max_epochs = 200
 batch_size = 32
@@ -115,23 +127,8 @@ task = 'solvent'
 downstream = task
 log_dir = f'{BASE_LOG}/solvent/fold{fold}'
 os.makedirs(log_dir, exist_ok=True)
-cifs_path = './data/total'
-load_path = './logs/HOF_pretrain/fold5/pretrained_mof_seed0_from_/version_2/checkpoints/best.ckpt'  # Pretrained model path
-
-# Get latest version of checkpoint
-def get_latest_version(log_dir, seed):
-    base_path = Path(log_dir) / f'pretrained_mof_seed{seed}_from_{pretrain_model}'
-    os.makedirs(base_path, exist_ok=True)
-    version_dirs = [d for d in base_path.iterdir() if d.is_dir() and d.name.startswith('version_')]
-    if not version_dirs:
-        return -1
-    
-    latest_version = max(int(d.name.split('_')[1]) for d in version_dirs)
-    return latest_version
-
-pretrain_model = load_path.split('/')[-1].split('.')[0] if load_path is not None else ''
-version = get_latest_version(log_dir, seed) + 1
-print("version:", version)
+cifs_path = './data/hof_database_cifs_raw/total'
+load_path = './ckpt/pretrain_real_hofdiff_best.ckpt'  # Pretrained model path
 
 # Run pretraining
 hofnet.run(
@@ -145,87 +142,70 @@ hofnet.run(
 ### Testing
 
 ```python
-# test.py
-
-import os
 from pathlib import Path
-import hofnet
 import pandas as pd
 import numpy as np
 import ast
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
-from sklearn.preprocessing import LabelBinarizer
 
-# Paths and configurations
-BASE_LOG = './logs'
+fold = 'fold1'
 task = 'solvent'
-fold = 'fold5'
+version = 0
 pretrain_model = 'pretrained_mof_seed0_from_'
-version = 3  # Example: the latest version to be tested
-log_dir = f'{BASE_LOG}/{task}/fold{fold}/pretrained_mof_seed0_from_{pretrain_model}'
-save_dir = Path(log_dir) / f'pretrained_mof_seed0_from_{pretrain_model}/version_{version}'
+log_base_dir = Path('./logs') / task / fold / pretrain_model
+save_dir = log_base_dir / pretrain_model / f'version_{version}'
 
-# Load data
-solvents_df = pd.read_csv('/mnt/user2/wty/HOF/solvent.csv')
-results_df = pd.read_csv(Path(save_dir) / f'updated_classification_results.csv')
+solvent_csv = '/mnt/user2/wty/HOF/solvent.csv'
+result_csv = save_dir / 'updated_classification_results.csv'
 
-# Define a function for MSE calculation
 def mse(y_true, y_pred):
-    return np.mean((np.array(y_true) - np.array(y_pred))**2)
+    return np.mean((np.array(y_true) - np.array(y_pred)) ** 2)
 
-# Preprocess results
-results_df['solvent_classification_logits'] = results_df['solvent_classification_logits'].apply(ast.literal_eval)
-results_df['solvent_classification_labels'] = results_df['solvent_classification_labels'].apply(ast.literal_eval)
-results_df['top1_solvent'] = ""
-results_df['top2_solvent'] = ""
-results_df['top3_solvent'] = ""
-
-# Merge solvent properties
-solvents_df['properties'] = solvents_df[['LogP', 'Area', 'donors', 'acceptors', 'point']].values.tolist()
-
-# Calculate the closest solvents
-for index, row in results_df.iterrows():
-    mse_scores = solvents_df['properties'].apply(lambda x: mse(x, row['solvent_classification_logits']))
-    closest_solvents = mse_scores.nsmallest(3).index
-    results_df.at[index, 'top1_solvent'] = solvents_df.at[closest_solvents[0], 'solvent1_label']
-    results_df.at[index, 'top2_solvent'] = solvents_df.at[closest_solvents[1], 'solvent1_label']
-    results_df.at[index, 'top3_solvent'] = solvents_df.at[closest_solvents[2], 'solvent1_label']
-
-    mse_scores_true = solvents_df['properties'].apply(lambda x: mse(x, row['solvent_classification_labels']))
-    closest_true_solvent = mse_scores_true.idxmin()
-    results_df.at[index, 'true_solvent'] = solvents_df.at[closest_true_solvent, 'solvent1_label']
-
-# Save updated results
-results_df.to_csv(Path(save_dir) / f'updated_classification_results.csv', index=False)
-
-# Evaluate predictions
-df = pd.read_csv(Path(save_dir) / f'updated_classification_results.csv')
-
-def evaluate_predictions(true_labels, predictions, average_type='macro'):
-    accuracy = accuracy_score(true_labels, predictions)
-    precision = precision_score(true_labels, predictions, average=average_type, zero_division=0)
-    recall = recall_score(true_labels, predictions, average=average_type, zero_division=0)
-    f1 = f1_score(true_labels, predictions, average=average_type, zero_division=0)
-    return accuracy, precision, recall, f1
-
-top1_accuracy, top1_precision, top1_recall, top1_f1 = evaluate_predictions(df['true_solvent'], df['top1_solvent'])
-
-# Top2 and Top3 accuracy calculation
 def multi_top_accuracy(true_labels, predictions):
-    correct = 0
-    for i in range(len(true_labels)):
-        if true_labels[i] in predictions[i]:
-            correct += 1
+    correct = sum(true in preds for true, preds in zip(true_labels, predictions))
     return correct / len(true_labels)
 
+solvents_df = pd.read_csv(solvent_csv)
+solvents_df['properties'] = solvents_df[['LogP', 'Area', 'donors', 'acceptors', 'point']].values.tolist()
+
+results_df = pd.read_csv(result_csv)
+results_df['solvent_classification_logits'] = results_df['solvent_classification_logits'].apply(ast.literal_eval)
+results_df['solvent_classification_labels'] = results_df['solvent_classification_labels'].apply(ast.literal_eval)
+
+# Initialize prediction columns
+for col in ['top1_solvent', 'top2_solvent', 'top3_solvent', 'true_solvent']:
+    results_df[col] = ""
+
+for index, row in results_df.iterrows():
+    pred_vec = row['solvent_classification_logits']
+    true_vec = row['solvent_classification_labels']
+
+    # Predict top-3 solvents by MSE
+    mse_scores = solvents_df['properties'].apply(lambda x: mse(x, pred_vec))
+    top3_indices = mse_scores.nsmallest(3).index
+    top3_labels = solvents_df.loc[top3_indices, 'solvent1_label'].tolist()
+
+    results_df.at[index, 'top1_solvent'] = top3_labels[0]
+    results_df.at[index, 'top2_solvent'] = top3_labels[1]
+    results_df.at[index, 'top3_solvent'] = top3_labels[2]
+
+    # True solvent: closest match to label vector
+    true_mse_scores = solvents_df['properties'].apply(lambda x: mse(x, true_vec))
+    best_match_index = true_mse_scores.idxmin()
+    results_df.at[index, 'true_solvent'] = solvents_df.at[best_match_index, 'solvent1_label']
+
+results_df.to_csv(result_csv, index=False)
+
+df = pd.read_csv(result_csv)
+true_labels = df['true_solvent'].tolist()
+top1_preds = df['top1_solvent'].tolist()
 top2_preds = df[['top1_solvent', 'top2_solvent']].values.tolist()
 top3_preds = df[['top1_solvent', 'top2_solvent', 'top3_solvent']].values.tolist()
 
-top2_accuracy = multi_top_accuracy(df['true_solvent'], top2_preds)
-top3_accuracy = multi_top_accuracy(df['true_solvent'], top3_preds)
+top1_accuracy = multi_top_accuracy(true_labels, [[pred] for pred in top1_preds])
+top2_accuracy = multi_top_accuracy(true_labels, top2_preds)
+top3_accuracy = multi_top_accuracy(true_labels, top3_preds)
 
-print(f"Top1 Accuracy: {top1_accuracy}, Precision: {top1_precision}, Recall: {top1_recall}, F1: {top1_f1}")
-print(f"Top2 Accuracy: {top2_accuracy}")
-print(f"Top3 Accuracy: {top3_accuracy}")
+print(f"Top1 Accuracy: {top1_accuracy:.4f}")
+print(f"Top2 Accuracy: {top2_accuracy:.4f}")
+print(f"Top3 Accuracy: {top3_accuracy:.4f}")
 ```
-

@@ -22,8 +22,7 @@ class Dataset(torch.utils.data.Dataset):
         draw_false_grid=True,
         downstream="",
         tasks=[],
-        fold='fold0',
-        fp_file_path=None
+        fold='fold0'
     ):
         """
         Dataset for pretrained HOF.
@@ -38,9 +37,7 @@ class Dataset(torch.utils.data.Dataset):
         self.cifs_path = cifs_path
         self.draw_false_grid = draw_false_grid
         self.split = split
-        self.fp_file_path = fp_file_path
         self.fold = fold
-        # self.fp_dict = self._load_fp_dict() if self.fp else None
 
         assert split in {"train", "test", "val"}
         if downstream:
@@ -148,104 +145,6 @@ class Dataset(torch.utils.data.Dataset):
                 }
             )
         return ret
-    
-    # def get_Hbond_lists(self, cif_id):
-    #     donors, hs, acceptors = [], [], []
-    #     lis_path = os.path.join(self.cifs_path, f"{cif_id}.lis")
-    #     # 假如没有lis文件直接返回空list
-    #     if not os.path.exists(lis_path):
-    #         print(f"No LIS file found for CIF ID {cif_id}.")
-    #         return donors, hs, acceptors
-    #     with open(lis_path, 'r') as file:
-    #         content = file.read()
-    #         # find hbond data block
-    #         data_block_match = re.search(r"(Nr Typ Res Donor.*?)(?=\n[A-Z])", content, re.DOTALL | re.MULTILINE)
-    #     if data_block_match:
-    #         data_block = data_block_match.group(0)
-    #         lines = data_block.splitlines()
-    #         for line in lines:
-    #             # 假如line中有？则直接跳过
-    #             if "?" in line:
-    #                 continue
-    #             line = re.sub(r'Intra', ' ', line)
-    #             line = re.sub(r'\d\*', '1 ', line)
-    #             line = re.sub(r'_[a-z*]', ' ', line)
-    #             line = re.sub(r'_[0-9*]', ' ', line)
-    #             line = re.sub(r'_', ' ', line)
-    #             line = re.sub(r'>', ' ', line)
-    #             line = re.sub(r'<', ' ', line)
-    #             columns = line.split()
-    #             if len(columns) > 1 and (columns[0].isdigit() or columns[0].startswith('**')) and columns[1].isdigit():  # 检查每行是否以数字开头
-    #                 # 提取“元素符号+数字”格式
-    #                 donor = re.search(r'[A-Za-z]+\d+[A-Z]*$', columns[2])
-    #                 h = re.search(r'[A-Za-z]+\d+[A-Z]*$', columns[3])
-    #                 acceptor = re.search(r'[A-Za-z]+\d+[A-Z]*$', columns[4])
-    #                 # 将匹配到的结果添加到列表中, 并且donor不以C开头
-    #                 if donor and not donor.group().startswith('C'):
-    #                     donors.append(donor.group())
-    #                     if h:
-    #                         hs.append(h.group())
-    #                     if acceptor:
-    #                         acceptors.append(acceptor.group())
-    #         # checker hbond
-    #         if len(donors) != len(acceptors):
-    #             print('donors:', donors)
-    #             print('hs:', hs)
-    #             print('acceptors:', acceptors)
-    #             print(f"Error in {cif_id}: Donor, H, Acceptor lists have different lengths.")
-    #         # else:
-    #             # print("No data block found in {}".format(lis_path))
-    #     return donors, hs, acceptors   
-    
-    # @staticmethod
-    # def read_cif_extract_block(file_path):
-    #     # 从CIF文件中读取内容，并定位到_atom_site_occupancy以下的数据块
-    #     with open(file_path, 'r') as file:
-    #         content = file.read()
-    #     start = content.find('_atom_site_occupancy')
-    #     if start == -1:
-    #         return None  # 没有找到相应的标签
-    #     data_block = content[start:].split('\n')[1:]  # 跳过标签行本身，获取其后的内容
-    #     return data_block, len(data_block)
-
-    # @staticmethod
-    # def extract_atom_labels(data_block):
-    #     atom_labels = []
-    #     for line in data_block:
-    #         parts = line.strip().split()
-    #         if len(parts) < 2:
-    #             continue
-    #         atom_labels.append(parts[1])  # 假设原子标签总是在第二列
-    #     return atom_labels
-    
-    # @staticmethod
-    # def classify_atoms(atom_labels, donors, hs, acceptors):
-    #     atom_classification = []
-    #     for label in atom_labels:
-    #         if label in donors:
-    #             atom_classification.append(1)
-    #         elif label in hs:
-    #             atom_classification.append(2)
-    #         elif label in acceptors:
-    #             atom_classification.append(3)
-    #         else:
-    #             atom_classification.append(0)
-    #     return atom_classification
-            
-    # def get_Hbond(self, cif_id):
-    #     donors, hs, acceptors = self.get_Hbond_lists(cif_id)
-    #     file_path = os.path.join(self.cifs_path, f"{cif_id}.cif")
-    #     # 读取和处理CIF文件
-    #     data_block, data_len = self.read_cif_extract_block(file_path)
-    #     if data_block:
-    #         atom_labels = self.extract_atom_labels(data_block)
-    #         # print("atom_labels len:", len(atom_labels))
-    #         atom_classification = self.classify_atoms(atom_labels, donors, hs, acceptors)
-    #         # print(atom_classification)  # 打印结果列表
-    #         return torch.LongTensor(np.array(atom_classification,dtype=np.int8))
-    #     else:
-    #         print("No data block found in the CIF file.")
-    #         return None
                 
 
     @staticmethod
@@ -285,26 +184,6 @@ class Dataset(torch.utils.data.Dataset):
             "uni_idx": uni_idx,
             "uni_count": uni_count,
         }
-    
-    def _load_fp_dict(self):
-        json_path = self.fp_file_path
-        try:
-            with open(json_path, 'r', encoding='utf-8') as file:
-                fp_dict = json.load(file)
-                fp_dict = {key: torch.FloatTensor(value) for key, value in fp_dict.items()}
-                return fp_dict
-        except FileNotFoundError:
-            print(f"Error: File '{json_path}' not found.")
-            raise
-        except json.JSONDecodeError:
-            print(f"Error: Failed to decode JSON from file '{json_path}'.")
-            raise
-
-    # def get_fp(self, cif_id):
-    #     if cif_id not in self.fp_dict:
-    #         raise KeyError(f"Key '{cif_id}' not found in the fingerprint JSON data.")
-        
-    #     return {'fp': self.fp_dict[cif_id]}
 
     def get_tasks(self, index):
         ret = dict()

@@ -212,7 +212,6 @@ def run(root_dataset, downstream=None, log_dir="logs/", *, test_only=False,
     config["test_only"] = test_only
     config['resume_from'] = checkpoint
     config['cifs_path'] = cifs_path
-    config['fp_file_path'] = fp_file_path
     print(config)
     main(config)
 
@@ -236,12 +235,15 @@ def main(_config):
         save_last=True,
     )
 
-    # 添加 EarlyStopping 回调
-    early_stop_callback = pl.callbacks.EarlyStopping(
-        monitor="val/the_metric",  # 修改为你需要监控的指标
-        patience=_config.get("early_stop_patience", 100),  # 设置容忍的轮次数
-        mode="max",               # 如果是最大化指标，用 "max"，否则用 "min"
-        verbose=True
+    # add EarlyStopping 
+
+    early_stop_callback = None
+    if _config.get("early_stop_patience", None) is not None:
+        early_stop_callback = pl.callbacks.EarlyStopping(
+            monitor="val/the_metric",
+            patience=_config["early_stop_patience"],
+            mode="max",
+            verbose=True,
     )
 
     if _config["test_only"]:
@@ -255,11 +257,10 @@ def main(_config):
     )
 
     lr_callback = pl.callbacks.LearningRateMonitor(logging_interval="step")
-    # callbacks = [checkpoint_callback, lr_callback, early_stop_callback]
     callbacks = [checkpoint_callback, lr_callback]
-
+    if early_stop_callback:
+            callbacks.append(early_stop_callback)
     num_device = get_num_devices(_config)
-    print("num_device", num_device)
 
     # gradient accumulation
     if num_device == 0:
@@ -281,7 +282,6 @@ def main(_config):
         strategy = "ddp"
 
     log_every_n_steps = 10
-    print("checkpoint:",_config["resume_from"])
     trainer = pl.Trainer(
         accelerator=_config["accelerator"],
         devices=_config["devices"],

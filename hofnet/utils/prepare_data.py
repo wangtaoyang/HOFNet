@@ -280,9 +280,27 @@ def _split_json(root_cifs:Path, root_dataset:Path, downstream:str):
         with open(str(root_dataset/f'{split}_{downstream}.json'), 'w') as f:
             json.dump(split_json, f)
 
+# add this function to convert unordered structure to ordered structure
+def to_ordered_structure(structure):
+    from pymatgen.core.structure import Structure
+    ordered_sites = []
+
+    for site in structure:
+        if site.is_ordered:
+            ordered_sites.append(site)
+        else:
+            # 选择占比最大的原子
+            max_element = max(site.species.items(), key=lambda x: x[1])[0]
+            ordered_sites.append(site.__class__(
+                species=max_element,
+                coords=site.frac_coords,
+                lattice=structure.lattice,
+                properties=site.properties
+            ))
+    return Structure.from_sites(ordered_sites)
 
 def _make_prepared_data(cif:Path, root_dataset_total:Path, logger, eg_logger, **kwargs):
-    max_num_atoms = kwargs.get('max_num_atoms', 1000)
+    max_num_atoms = kwargs.get('max_num_atoms', 10000)
     max_length = kwargs.get('max_length', 60.)
     min_length = kwargs.get('min_length', 30.)
     max_num_nbr = kwargs.get('max_num_nbr', 12)
@@ -300,7 +318,9 @@ def _make_prepared_data(cif:Path, root_dataset_total:Path, logger, eg_logger, **
 
     # 0. check primitive cell and atom number < max_num_atoms
     try:
-        st = CifParser(str(cif), occupancy_tolerance=2.0).get_structures(primitive=True)[0]
+        st = CifParser(str(cif), occupancy_tolerance=1000.0).get_structures(primitive=True)[0]
+        if not st.is_ordered:
+            st = to_ordered_structure(st)
 
     except Exception as e:
         logger.info(f"{cif_id} failed : {e}")
@@ -397,15 +417,3 @@ def prepare_data(root_cifs, root_dataset, downstream, **kwargs):
     # make *.grid, *.griddata16, and *.graphdata file
     for cif in tqdm(root_cifs.glob('*.cif'), total=sum(1 for _ in root_cifs.glob('*.cif'))):
         _make_prepared_data(cif, root_dataset_total, logger, eg_logger, **kwargs)
-
-    # automatically split data
-    _split_dataset(root_dataset, **kwargs)
-
-    # split json file
-    if isinstance(downstream, str):
-        _split_json(root_cifs, root_dataset, downstream)
-    elif isinstance(downstream, Iterable):
-        for single_downstream in downstream:
-            _split_json(root_cifs, root_dataset, single_downstream)
-    else:
-        raise TypeError(f'task must be str or Iterable, not {type(downstream)}')

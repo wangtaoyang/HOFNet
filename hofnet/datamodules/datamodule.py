@@ -27,7 +27,6 @@ class Datamodule(LightningDataModule):
 
         self.tasks = [k for k, v in _config["loss_names"].items() if v >= 1]
         self.fold = _config["fold"]
-        self.fp_file_path = _config["fp_file_path"]
 
     @property
     def dataset_cls(self):
@@ -42,8 +41,7 @@ class Datamodule(LightningDataModule):
             downstream=self.downstream,
             nbr_fea_len=self.nbr_fea_len,
             tasks=self.tasks,
-            fold=self.fold,
-            fp_file_path=self.fp_file_path
+            fold=self.fold
         )
 
     def set_val_dataset(self):
@@ -55,8 +53,7 @@ class Datamodule(LightningDataModule):
             downstream=self.downstream,
             nbr_fea_len=self.nbr_fea_len,
             tasks=self.tasks,
-            fold=self.fold,
-            fp_file_path=self.fp_file_path
+            fold=self.fold
         )
 
     def set_test_dataset(self):
@@ -68,8 +65,7 @@ class Datamodule(LightningDataModule):
             downstream=self.downstream,
             nbr_fea_len=self.nbr_fea_len,
             tasks=self.tasks,
-            fold=self.fold,
-            fp_file_path=self.fp_file_path
+            fold=self.fold
         )
 
     def setup(self, stage: Optional[str] = None):
