@@ -44,9 +44,9 @@ We provide pretrained **HOFNet** model checkpoints to accelerate your downstream
 
 The HOF datasets used in this project, including real-world HOF structures, are available for download at the link below:
 
-[Download HOFSyn dataset (hofsyn.tar.gz)](https://figshare.com/articles/dataset/HOFSyn/28856483)
+[Download HOFSyn dataset (hof_database_cifs_raw.zip)](https://figshare.com/articles/dataset/HOFSyn/28856483)
 
-**After extracting** `hofsyn.tar.gz`, you will get a folder named `hof_database_cifs_raw` which contains the collected real HOF structures.
+**After extracting** `hof_database_cifs_raw.zip`, you will get a folder named `hof_database_cifs_raw` which contains the collected real HOF structures.
 
 **Recommended path:** Place the extracted data folder inside `./data`.
 
@@ -57,8 +57,8 @@ from hofnet.examples import example_path
 from hofnet.utils import prepare_data
 
 # Example paths for CIFs and dataset
-root_cifs = "/data/user2/wty/HOF/MOFDiff/tobacco_cif"
-root_dataset = "/data/user2/wty/HOF/MOFDiff/tobacco_cif"
+root_cifs = "./data/hof_database_cifs_raw"
+root_dataset = "./data/hof_database_cifs_raw"
 
 # Run data preparation
 prepare_data(root_cifs, root_dataset, downstream=None)
