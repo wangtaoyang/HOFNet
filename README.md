@@ -115,27 +115,25 @@ import hofnet
 
 # real_hof + hofdiff - fold2
 # real_hof - fold1
-fold = 'fold1'
-devices = [1]
+fold = 'fold0'
+devices = [4]
 max_epochs = 200
 batch_size = 32
 seed = 0               # default seeds
 BASE_DATA = './data'
 BASE_LOG = './logs'
-root_dataset = f'{BASE_DATA}/HOF_solvent/fold{fold}'
+root_dataset = f'{BASE_DATA}/HOF_solvent/{fold}'
 task = 'solvent'
 downstream = task
-log_dir = f'{BASE_LOG}/solvent/fold{fold}'
+log_dir = f'{BASE_LOG}/solvent/fold{fold}/finetune'
 os.makedirs(log_dir, exist_ok=True)
 cifs_path = './data/hof_database_cifs_raw/total'
 load_path = './ckpt/pretrain_real_hofdiff_best.ckpt'  # Pretrained model path
 
-# Run pretraining
 hofnet.run(
     root_dataset, downstream, log_dir=log_dir,                   
     max_epochs=max_epochs, batch_size=batch_size, devices=devices, 
-    cifs_path=cifs_path, loss_names="solvent_classification", num_workers=4, 
-    load_path=load_path, freeze_layers=False
+    cifs_path=cifs_path, loss_names="solvent_classification", num_workers=4, load_path=load_path
 )
 ```
 
@@ -146,16 +144,37 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import ast
+from hofnet import predict  # Assuming hofnet is properly installed and configured
 
-fold = 'fold1'
+
+# === Configuration ===
+fold = 'fold0'
 task = 'solvent'
 version = 0
-pretrain_model = 'pretrained_mof_seed0_from_'
-log_base_dir = Path('./logs') / task / fold / pretrain_model
-save_dir = log_base_dir / pretrain_model / f'version_{version}'
+seed = 0
+checkpoint = 'best'
+log_dir = Path('./logs') / task / fold
+load_path = Path('./ckpt/real_hofdiff_best.ckpt')
+root_dataset = f'./data/HOF_solvent/{fold}'
+cifs_path = ".data/hof_database_cifs_raw/total"
+devices = [0]
+losses_name = 'solvent_classification'
 
-solvent_csv = '/mnt/user2/wty/HOF/solvent.csv'
-result_csv = save_dir / 'updated_classification_results.csv'
+# === Prediction ===
+predict(root_dataset, load_path, cifs_path=cifs_path, downstream=task,
+        save_dir=log_dir, devices=devices, loss_names=losses_name)
+
+# === Post-process ===
+solvent_csv = './solvent.csv'
+result_csv = log_dir / 'updated_classification_results.csv'
+df = pd.read_csv(log_dir / 'test_prediction.csv')
+
+df['solvent_classification_logits'] = df['solvent_classification_logits'].apply(ast.literal_eval)
+df['solvent_classification_labels'] = df['solvent_classification_labels'].apply(ast.literal_eval)
+df.to_csv(result_csv, index=False)
+
+solvents_df = pd.read_csv(solvent_csv)
+solvents_df['properties'] = solvents_df[['LogP', 'Area', 'donors', 'acceptors', 'point']].values.tolist()
 
 def mse(y_true, y_pred):
     return np.mean((np.array(y_true) - np.array(y_pred)) ** 2)
@@ -164,38 +183,26 @@ def multi_top_accuracy(true_labels, predictions):
     correct = sum(true in preds for true, preds in zip(true_labels, predictions))
     return correct / len(true_labels)
 
-solvents_df = pd.read_csv(solvent_csv)
-solvents_df['properties'] = solvents_df[['LogP', 'Area', 'donors', 'acceptors', 'point']].values.tolist()
-
-results_df = pd.read_csv(result_csv)
-results_df['solvent_classification_logits'] = results_df['solvent_classification_logits'].apply(ast.literal_eval)
-results_df['solvent_classification_labels'] = results_df['solvent_classification_labels'].apply(ast.literal_eval)
-
-# Initialize prediction columns
 for col in ['top1_solvent', 'top2_solvent', 'top3_solvent', 'true_solvent']:
-    results_df[col] = ""
+    df[col] = ""
 
-for index, row in results_df.iterrows():
+for index, row in df.iterrows():
     pred_vec = row['solvent_classification_logits']
     true_vec = row['solvent_classification_labels']
-
-    # Predict top-3 solvents by MSE
     mse_scores = solvents_df['properties'].apply(lambda x: mse(x, pred_vec))
     top3_indices = mse_scores.nsmallest(3).index
     top3_labels = solvents_df.loc[top3_indices, 'solvent1_label'].tolist()
 
-    results_df.at[index, 'top1_solvent'] = top3_labels[0]
-    results_df.at[index, 'top2_solvent'] = top3_labels[1]
-    results_df.at[index, 'top3_solvent'] = top3_labels[2]
+    df.at[index, 'top1_solvent'] = top3_labels[0]
+    df.at[index, 'top2_solvent'] = top3_labels[1]
+    df.at[index, 'top3_solvent'] = top3_labels[2]
 
-    # True solvent: closest match to label vector
     true_mse_scores = solvents_df['properties'].apply(lambda x: mse(x, true_vec))
     best_match_index = true_mse_scores.idxmin()
-    results_df.at[index, 'true_solvent'] = solvents_df.at[best_match_index, 'solvent1_label']
+    df.at[index, 'true_solvent'] = solvents_df.at[best_match_index, 'solvent1_label']
 
-results_df.to_csv(result_csv, index=False)
+df.to_csv(result_csv, index=False)
 
-df = pd.read_csv(result_csv)
 true_labels = df['true_solvent'].tolist()
 top1_preds = df['top1_solvent'].tolist()
 top2_preds = df[['top1_solvent', 'top2_solvent']].values.tolist()
