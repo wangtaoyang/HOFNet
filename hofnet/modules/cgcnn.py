@@ -1,4 +1,4 @@
-# hofnet version 2.0.0
+# MOFTransformer version 2.0.0
 import random
 
 import torch
@@ -100,6 +100,8 @@ class GraphEmbeddings(nn.Module):
         )
         self.hbond_embedding = nn.Embedding(4, atom_fea_len) 
         self.fc = nn.Linear(atom_fea_len, hid_dim)
+        self.fc_hbond = nn.Linear(atom_fea_len, 4)
+        self.hbond_weight = nn.Parameter(torch.tensor(0.1))
         self.vis = vis
 
     def forward(
@@ -131,10 +133,14 @@ class GraphEmbeddings(nn.Module):
         new_atom_fea, mask, mo_label, rand_idx_list = self.reconstruct_batch(
             atom_fea, crystal_atom_idx, uni_idx, uni_count, hbond
         )
+        # if self.vis:
+        #  
+        #     torch.save(rand_idx_list, "")
         
-        return new_atom_fea, mask, mo_label, rand_idx_list 
+        return new_atom_fea, mask, mo_label, rand_idx_list  # None will be replaced with MOC
 
     def reconstruct_batch(self, atom_fea, crystal_atom_idx, uni_idx, uni_count, hbond):
+    
         batch_size = len(crystal_atom_idx)
         new_atom_fea = torch.full(
             size=[batch_size, self.max_graph_len, self.hid_dim], fill_value=0.0
@@ -144,7 +150,7 @@ class GraphEmbeddings(nn.Module):
             size=[batch_size, self.max_graph_len], fill_value=-100.0
         ).to(atom_fea)
 
-        rand_idx_list = []  # 存储每个样本的 rand_idx
+        rand_idx_list = []  
 
         for bi, c_atom_idx in enumerate(crystal_atom_idx):
             # set uni_idx with (descending count or random) and cut max_graph_len
@@ -155,7 +161,7 @@ class GraphEmbeddings(nn.Module):
             if self.vis:
                 rand_idx = idx_
             
-            rand_idx_list.append(rand_idx)  # 存储当前样本的 rand_idx
+            rand_idx_list.append(rand_idx) 
             # print(len(rand_idx))
             new_atom_fea[bi][: len(rand_idx)] = atom_fea[c_atom_idx][rand_idx]
 
@@ -231,10 +237,9 @@ class GraphEmbeddingsNouni(nn.Module):
         return (
             new_atom_fea,
             new_atom_fea_pad_mask,
-        )  # None will be replaced with MOC
+        )  
 
     def reconstruct_batch(self, atom_fea, crystal_atom_idx):
-        # return new_atom_fea, mask, mo_label
         batch_size = len(crystal_atom_idx)
 
         new_atom_fea = torch.full(

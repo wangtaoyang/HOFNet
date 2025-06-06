@@ -37,6 +37,18 @@ class Module(LightningModule):
         self.token_type_embeddings = nn.Embedding(2, config["hid_dim"])
         self.token_type_embeddings.apply(objectives.init_weights)
 
+        self.fp_mlp_1 = nn.Sequential(
+            nn.Linear(config["hid_dim"] + 1024, 1024),  # 从输入维度加宽到1024
+            nn.ReLU(),
+            nn.Linear(1024, 768),  # 减少维度到768
+            nn.ReLU(),
+            nn.Linear(768, 512),  # 进一步减少维度
+            nn.ReLU(),
+            nn.Linear(512, 768),  # 恢复到最终输出维度768
+            nn.ReLU(),
+            nn.Linear(768, config["hid_dim"])  # 最终输出层，保持768维度
+        )
+
         # set transformer
         self.transformer = VisionTransformer3D(
             img_size=config["img_size"],
@@ -51,6 +63,7 @@ class Module(LightningModule):
         )
 
         self.layer_norms = nn.ModuleList(nn.LayerNorm(config["hid_dim"]) for _ in range(len(self.transformer.blocks)))
+        self.hbond_weight = nn.Parameter(torch.tensor(1.0))
 
         # class token
         self.cls_embeddings = nn.Linear(1, config["hid_dim"])

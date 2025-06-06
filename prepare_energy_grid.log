@@ -1,0 +1,1270 @@
+2025-05-25 19:53:47,133 - prepare_energy_grid.log - INFO - 40_1510310_hoifs-3 energy grid success
+2025-05-25 19:53:47,135 - prepare_energy_grid.log - INFO - 40_1510310_hoifs-3 energy grid changed to np16
+2025-05-25 19:53:50,340 - prepare_energy_grid.log - INFO - 264-cp-py-2-tcb energy grid success
+2025-05-25 19:53:50,342 - prepare_energy_grid.log - INFO - 264-cp-py-2-tcb energy grid changed to np16
+2025-05-25 19:53:53,815 - prepare_energy_grid.log - INFO - 282-cp-hp-1 energy grid success
+2025-05-25 19:53:53,817 - prepare_energy_grid.log - INFO - 282-cp-hp-1 energy grid changed to np16
+2025-05-25 19:53:55,900 - prepare_energy_grid.log - INFO - 117_1948438_hons2 energy grid success
+2025-05-25 19:53:55,902 - prepare_energy_grid.log - INFO - 117_1948438_hons2 energy grid changed to np16
+2025-05-25 19:54:24,257 - prepare_energy_grid.log - INFO - 40_1510310_hoifs-3 energy grid success
+2025-05-25 19:54:24,259 - prepare_energy_grid.log - INFO - 40_1510310_hoifs-3 energy grid changed to np16
+2025-05-25 19:54:27,483 - prepare_energy_grid.log - INFO - 264-cp-py-2-tcb energy grid success
+2025-05-25 19:54:27,483 - prepare_energy_grid.log - INFO - 264-cp-py-2-tcb energy grid changed to np16
+2025-05-25 19:54:30,868 - prepare_energy_grid.log - INFO - 282-cp-hp-1 energy grid success
+2025-05-25 19:54:30,870 - prepare_energy_grid.log - INFO - 282-cp-hp-1 energy grid changed to np16
+2025-05-25 19:54:32,960 - prepare_energy_grid.log - INFO - 117_1948438_hons2 energy grid success
+2025-05-25 19:54:32,962 - prepare_energy_grid.log - INFO - 117_1948438_hons2 energy grid changed to np16
+2025-05-25 19:54:35,775 - prepare_energy_grid.log - INFO - 160_2056901_tpe2tp energy grid success
+2025-05-25 19:54:35,777 - prepare_energy_grid.log - INFO - 160_2056901_tpe2tp energy grid changed to np16
+2025-05-25 19:54:38,328 - prepare_energy_grid.log - INFO - 32_1540572_cphat-1a energy grid success
+2025-05-25 19:54:38,330 - prepare_energy_grid.log - INFO - 32_1540572_cphat-1a energy grid changed to np16
+2025-05-25 19:54:40,456 - prepare_energy_grid.log - INFO - 126_2027310_cpdbc-2 energy grid success
+2025-05-25 19:54:40,458 - prepare_energy_grid.log - INFO - 126_2027310_cpdbc-2 energy grid changed to np16
+2025-05-25 19:54:42,030 - prepare_energy_grid.log - INFO - 304-hof-sxu-1 energy grid success
+2025-05-25 19:54:42,032 - prepare_energy_grid.log - INFO - 304-hof-sxu-1 energy grid changed to np16
+2025-05-25 19:54:46,632 - prepare_energy_grid.log - INFO - 26_1523338_tetra energy grid success
+2025-05-25 19:54:46,634 - prepare_energy_grid.log - INFO - 26_1523338_tetra energy grid changed to np16
+2025-05-25 19:54:49,747 - prepare_energy_grid.log - INFO - 282-ppy-1_01_0000 energy grid success
+2025-05-25 19:54:49,749 - prepare_energy_grid.log - INFO - 282-ppy-1_01_0000 energy grid changed to np16
+2025-05-25 19:54:52,172 - prepare_energy_grid.log - INFO - 187_3d-p-benzoquinone energy grid success
+2025-05-25 19:54:52,174 - prepare_energy_grid.log - INFO - 187_3d-p-benzoquinone energy grid changed to np16
+2025-05-25 19:54:57,829 - prepare_energy_grid.log - INFO - 203[1lso42]tba4 energy grid success
+2025-05-25 19:54:57,831 - prepare_energy_grid.log - INFO - 203[1lso42]tba4 energy grid changed to np16
+2025-05-25 19:54:59,989 - prepare_energy_grid.log - INFO - 18_1445429_1-h2o energy grid success
+2025-05-25 19:54:59,990 - prepare_energy_grid.log - INFO - 18_1445429_1-h2o energy grid changed to np16
+2025-05-25 20:00:16,047 - prepare_energy_grid.log - INFO - 6_918145_2as_tpma_tmbd-pos1c energy grid success
+2025-05-25 20:00:16,051 - prepare_energy_grid.log - INFO - 6_918145_2as_tpma_tmbd-pos1c energy grid changed to np16
+2025-05-25 20:00:19,561 - prepare_energy_grid.log - INFO - 1_3 energy grid success
+2025-05-25 20:00:19,562 - prepare_energy_grid.log - INFO - 1_3 energy grid changed to np16
+2025-05-25 20:00:23,602 - prepare_energy_grid.log - INFO - 256-th5_dmso energy grid success
+2025-05-25 20:00:23,606 - prepare_energy_grid.log - INFO - 256-th5_dmso energy grid changed to np16
+2025-05-25 20:00:25,576 - prepare_energy_grid.log - INFO - 53_1576296_2 energy grid success
+2025-05-25 20:00:25,578 - prepare_energy_grid.log - INFO - 53_1576296_2 energy grid changed to np16
+2025-05-25 20:00:27,916 - prepare_energy_grid.log - INFO - 260-hof-nbda energy grid success
+2025-05-25 20:00:27,918 - prepare_energy_grid.log - INFO - 260-hof-nbda energy grid changed to np16
+2025-05-25 20:00:29,400 - prepare_energy_grid.log - INFO - 59_1834673_1 energy grid success
+2025-05-25 20:00:29,402 - prepare_energy_grid.log - INFO - 59_1834673_1 energy grid changed to np16
+2025-05-25 20:00:36,246 - prepare_energy_grid.log - INFO - 84_1867927_1b energy grid success
+2025-05-25 20:00:36,247 - prepare_energy_grid.log - INFO - 84_1867927_1b energy grid changed to np16
+2025-05-25 20:00:38,041 - prepare_energy_grid.log - INFO - 59_1834675_3 energy grid success
+2025-05-25 20:00:38,044 - prepare_energy_grid.log - INFO - 59_1834675_3 energy grid changed to np16
+2025-05-25 20:00:40,596 - prepare_energy_grid.log - INFO - 48_1550504_16 energy grid success
+2025-05-25 20:00:40,598 - prepare_energy_grid.log - INFO - 48_1550504_16 energy grid changed to np16
+2025-05-25 20:00:42,168 - prepare_energy_grid.log - INFO - 128_2010571_pfc-33tba energy grid success
+2025-05-25 20:00:42,170 - prepare_energy_grid.log - INFO - 128_2010571_pfc-33tba energy grid changed to np16
+2025-05-25 20:00:44,692 - prepare_energy_grid.log - INFO - 23_1424087_1_1d energy grid success
+2025-05-25 20:00:44,694 - prepare_energy_grid.log - INFO - 23_1424087_1_1d energy grid changed to np16
+2025-05-25 20:00:47,951 - prepare_energy_grid.log - INFO - 211-btba-1c1_sq energy grid success
+2025-05-25 20:00:47,953 - prepare_energy_grid.log - INFO - 211-btba-1c1_sq energy grid changed to np16
+2025-05-25 20:00:50,731 - prepare_energy_grid.log - INFO - 314-4-br energy grid success
+2025-05-25 20:00:50,733 - prepare_energy_grid.log - INFO - 314-4-br energy grid changed to np16
+2025-05-25 20:00:52,279 - prepare_energy_grid.log - INFO - 2332269819co-hof energy grid success
+2025-05-25 20:00:52,281 - prepare_energy_grid.log - INFO - 2332269819co-hof energy grid changed to np16
+2025-05-25 20:00:56,020 - prepare_energy_grid.log - INFO - 2_g34dmbs energy grid success
+2025-05-25 20:00:56,022 - prepare_energy_grid.log - INFO - 2_g34dmbs energy grid changed to np16
+2025-05-25 20:00:59,414 - prepare_energy_grid.log - INFO - 294-5_pyridine energy grid success
+2025-05-25 20:00:59,417 - prepare_energy_grid.log - INFO - 294-5_pyridine energy grid changed to np16
+2025-05-25 20:01:03,428 - prepare_energy_grid.log - INFO - 55_1837141_1’-15min energy grid success
+2025-05-25 20:01:03,430 - prepare_energy_grid.log - INFO - 55_1837141_1’-15min energy grid changed to np16
+2025-05-25 20:01:05,149 - prepare_energy_grid.log - INFO - 176_hof-zju-102 energy grid success
+2025-05-25 20:01:05,150 - prepare_energy_grid.log - INFO - 176_hof-zju-102 energy grid changed to np16
+2025-05-25 20:01:06,671 - prepare_energy_grid.log - INFO - 2031l energy grid success
+2025-05-25 20:01:06,673 - prepare_energy_grid.log - INFO - 2031l energy grid changed to np16
+2025-05-25 20:01:10,196 - prepare_energy_grid.log - INFO - 187_3d-benzene-pbenzoquinone energy grid success
+2025-05-25 20:01:10,198 - prepare_energy_grid.log - INFO - 187_3d-benzene-pbenzoquinone energy grid changed to np16
+2025-05-25 20:01:13,778 - prepare_energy_grid.log - INFO - 73_1908802_hcof-3 energy grid success
+2025-05-25 20:01:13,780 - prepare_energy_grid.log - INFO - 73_1908802_hcof-3 energy grid changed to np16
+2025-05-25 20:01:16,356 - prepare_energy_grid.log - INFO - 113_1984953_hof-20 energy grid success
+2025-05-25 20:01:16,359 - prepare_energy_grid.log - INFO - 113_1984953_hof-20 energy grid changed to np16
+2025-05-25 20:01:19,374 - prepare_energy_grid.log - INFO - 192hof-hapcp energy grid success
+2025-05-25 20:01:19,376 - prepare_energy_grid.log - INFO - 192hof-hapcp energy grid changed to np16
+2025-05-25 20:01:23,277 - prepare_energy_grid.log - INFO - 45_1555043_1c energy grid success
+2025-05-25 20:01:23,279 - prepare_energy_grid.log - INFO - 45_1555043_1c energy grid changed to np16
+2025-05-25 20:01:25,310 - prepare_energy_grid.log - INFO - 293-cbiphenyl energy grid success
+2025-05-25 20:01:25,313 - prepare_energy_grid.log - INFO - 293-cbiphenyl energy grid changed to np16
+2025-05-25 20:01:27,476 - prepare_energy_grid.log - INFO - 294-2_5 energy grid success
+2025-05-25 20:01:27,479 - prepare_energy_grid.log - INFO - 294-2_5 energy grid changed to np16
+2025-05-25 20:01:29,451 - prepare_energy_grid.log - INFO - 17_1411460_1 energy grid success
+2025-05-25 20:01:29,453 - prepare_energy_grid.log - INFO - 17_1411460_1 energy grid changed to np16
+2025-05-25 20:01:32,405 - prepare_energy_grid.log - INFO - 92_1879989_mhof-3 energy grid success
+2025-05-25 20:01:32,407 - prepare_energy_grid.log - INFO - 92_1879989_mhof-3 energy grid changed to np16
+2025-05-25 20:01:34,271 - prepare_energy_grid.log - INFO - 162_2076400_pyfa_298k energy grid success
+2025-05-25 20:01:34,273 - prepare_energy_grid.log - INFO - 162_2076400_pyfa_298k energy grid changed to np16
+2025-05-25 20:01:36,892 - prepare_energy_grid.log - INFO - 5-5 energy grid success
+2025-05-25 20:01:36,894 - prepare_energy_grid.log - INFO - 5-5 energy grid changed to np16
+2025-05-25 20:01:39,430 - prepare_energy_grid.log - INFO - 125_1892511_hma2[bi2pda42water]4water energy grid success
+2025-05-25 20:01:39,432 - prepare_energy_grid.log - INFO - 125_1892511_hma2[bi2pda42water]4water energy grid changed to np16
+2025-05-25 20:01:42,042 - prepare_energy_grid.log - INFO - 293-2s4 energy grid success
+2025-05-25 20:01:42,045 - prepare_energy_grid.log - INFO - 293-2s4 energy grid changed to np16
+2025-05-25 20:01:45,118 - prepare_energy_grid.log - INFO - 294-4_bpy_dmso_dcm energy grid success
+2025-05-25 20:01:45,119 - prepare_energy_grid.log - INFO - 294-4_bpy_dmso_dcm energy grid changed to np16
+2025-05-25 20:01:48,216 - prepare_energy_grid.log - INFO - 13-3_ref_1234 energy grid success
+2025-05-25 20:01:48,219 - prepare_energy_grid.log - INFO - 13-3_ref_1234 energy grid changed to np16
+2025-05-25 20:01:55,931 - prepare_energy_grid.log - INFO - 100_1974317_2 energy grid success
+2025-05-25 20:01:55,933 - prepare_energy_grid.log - INFO - 100_1974317_2 energy grid changed to np16
+2025-05-25 20:01:58,202 - prepare_energy_grid.log - INFO - 85_1888690_ecut-hof-30 energy grid success
+2025-05-25 20:01:58,205 - prepare_energy_grid.log - INFO - 85_1888690_ecut-hof-30 energy grid changed to np16
+2025-05-25 20:02:00,689 - prepare_energy_grid.log - INFO - 98_1938465_complex1 energy grid success
+2025-05-25 20:02:00,691 - prepare_energy_grid.log - INFO - 98_1938465_complex1 energy grid changed to np16
+2025-05-25 20:02:03,183 - prepare_energy_grid.log - INFO - 2_g3fbs energy grid success
+2025-05-25 20:02:03,184 - prepare_energy_grid.log - INFO - 2_g3fbs energy grid changed to np16
+2025-05-25 20:02:05,867 - prepare_energy_grid.log - INFO - 82_1888147_br-1 energy grid success
+2025-05-25 20:02:05,869 - prepare_energy_grid.log - INFO - 82_1888147_br-1 energy grid changed to np16
+2025-05-25 20:02:08,260 - prepare_energy_grid.log - INFO - 48_1846100_6 energy grid success
+2025-05-25 20:02:08,262 - prepare_energy_grid.log - INFO - 48_1846100_6 energy grid changed to np16
+2025-05-25 20:02:10,460 - prepare_energy_grid.log - INFO - 2272235812 energy grid success
+2025-05-25 20:02:10,462 - prepare_energy_grid.log - INFO - 2272235812 energy grid changed to np16
+2025-05-25 20:02:13,093 - prepare_energy_grid.log - INFO - 157_1979289_hof-16-methanol energy grid success
+2025-05-25 20:02:13,096 - prepare_energy_grid.log - INFO - 157_1979289_hof-16-methanol energy grid changed to np16
+2025-05-25 20:02:16,615 - prepare_energy_grid.log - INFO - 168_2087503_hof-30p energy grid success
+2025-05-25 20:02:16,616 - prepare_energy_grid.log - INFO - 168_2087503_hof-30p energy grid changed to np16
+2025-05-25 20:02:20,475 - prepare_energy_grid.log - INFO - 187_1d-r energy grid success
+2025-05-25 20:02:20,476 - prepare_energy_grid.log - INFO - 187_1d-r energy grid changed to np16
+2025-05-25 20:02:22,926 - prepare_energy_grid.log - INFO - 21520140741 energy grid success
+2025-05-25 20:02:22,928 - prepare_energy_grid.log - INFO - 21520140741 energy grid changed to np16
+2025-05-25 20:02:31,138 - prepare_energy_grid.log - INFO - 243-hof-fju-39 energy grid success
+2025-05-25 20:02:31,139 - prepare_energy_grid.log - INFO - 243-hof-fju-39 energy grid changed to np16
+2025-05-25 20:02:33,070 - prepare_energy_grid.log - INFO - 151-bptp-1-tcb energy grid success
+2025-05-25 20:02:33,073 - prepare_energy_grid.log - INFO - 151-bptp-1-tcb energy grid changed to np16
+2025-05-25 20:02:35,201 - prepare_energy_grid.log - INFO - 153_2038609_bisimidazoliumterephthalate-100k energy grid success
+2025-05-25 20:02:35,204 - prepare_energy_grid.log - INFO - 153_2038609_bisimidazoliumterephthalate-100k energy grid changed to np16
+2025-05-25 20:02:39,071 - prepare_energy_grid.log - INFO - 62_1877480_cphatn-npdmac energy grid success
+2025-05-25 20:02:39,074 - prepare_energy_grid.log - INFO - 62_1877480_cphatn-npdmac energy grid changed to np16
+2025-05-25 20:02:43,083 - prepare_energy_grid.log - INFO - 2_g3cbs energy grid success
+2025-05-25 20:02:43,085 - prepare_energy_grid.log - INFO - 2_g3cbs energy grid changed to np16
+2025-05-25 20:03:57,410 - prepare_energy_grid.log - INFO - 56_1833798_1dy4 energy grid success
+2025-05-25 20:03:57,413 - prepare_energy_grid.log - INFO - 56_1833798_1dy4 energy grid changed to np16
+2025-05-25 20:03:59,645 - prepare_energy_grid.log - INFO - 38_1578414_tpme-2 energy grid success
+2025-05-25 20:03:59,647 - prepare_energy_grid.log - INFO - 38_1578414_tpme-2 energy grid changed to np16
+2025-05-25 20:04:05,709 - prepare_energy_grid.log - INFO - 62_1886521_cphatn-npnmp energy grid success
+2025-05-25 20:04:05,711 - prepare_energy_grid.log - INFO - 62_1886521_cphatn-npnmp energy grid changed to np16
+2025-05-25 20:04:11,266 - prepare_energy_grid.log - INFO - 212-hcof6 energy grid success
+2025-05-25 20:04:11,269 - prepare_energy_grid.log - INFO - 212-hcof6 energy grid changed to np16
+2025-05-25 20:04:13,214 - prepare_energy_grid.log - INFO - 295-upc-hof-6 energy grid success
+2025-05-25 20:04:13,216 - prepare_energy_grid.log - INFO - 295-upc-hof-6 energy grid changed to np16
+2025-05-25 20:04:16,001 - prepare_energy_grid.log - INFO - 293-abiphen energy grid success
+2025-05-25 20:04:16,003 - prepare_energy_grid.log - INFO - 293-abiphen energy grid changed to np16
+2025-05-25 20:04:18,275 - prepare_energy_grid.log - INFO - 37_1541092-viii energy grid success
+2025-05-25 20:04:18,277 - prepare_energy_grid.log - INFO - 37_1541092-viii energy grid changed to np16
+2025-05-25 20:04:22,167 - prepare_energy_grid.log - INFO - 5-10 energy grid success
+2025-05-25 20:04:22,168 - prepare_energy_grid.log - INFO - 5-10 energy grid changed to np16
+2025-05-25 20:04:24,064 - prepare_energy_grid.log - INFO - 48_1846103_2 energy grid success
+2025-05-25 20:04:24,066 - prepare_energy_grid.log - INFO - 48_1846103_2 energy grid changed to np16
+2025-05-25 20:04:27,148 - prepare_energy_grid.log - INFO - 1_5 energy grid success
+2025-05-25 20:04:27,150 - prepare_energy_grid.log - INFO - 1_5 energy grid changed to np16
+2025-05-25 20:04:30,688 - prepare_energy_grid.log - INFO - 73_1910292_p7 energy grid success
+2025-05-25 20:04:30,690 - prepare_energy_grid.log - INFO - 73_1910292_p7 energy grid changed to np16
+2025-05-25 20:04:32,970 - prepare_energy_grid.log - INFO - 298-ecut-hof-30 energy grid success
+2025-05-25 20:04:32,972 - prepare_energy_grid.log - INFO - 298-ecut-hof-30 energy grid changed to np16
+2025-05-25 20:04:35,356 - prepare_energy_grid.log - INFO - 88_1850863_1 energy grid success
+2025-05-25 20:04:35,357 - prepare_energy_grid.log - INFO - 88_1850863_1 energy grid changed to np16
+2025-05-25 20:04:43,894 - prepare_energy_grid.log - INFO - 115_2005567_cbpe-1mebz energy grid success
+2025-05-25 20:04:43,897 - prepare_energy_grid.log - INFO - 115_2005567_cbpe-1mebz energy grid changed to np16
+2025-05-25 20:04:48,150 - prepare_energy_grid.log - INFO - 201-hof-fju-2acetone energy grid success
+2025-05-25 20:04:48,152 - prepare_energy_grid.log - INFO - 201-hof-fju-2acetone energy grid changed to np16
+2025-05-25 20:04:49,864 - prepare_energy_grid.log - INFO - 185_hof-110 energy grid success
+2025-05-25 20:04:49,867 - prepare_energy_grid.log - INFO - 185_hof-110 energy grid changed to np16
+2025-05-25 20:04:53,038 - prepare_energy_grid.log - INFO - 282-cp-py-1 energy grid success
+2025-05-25 20:04:53,040 - prepare_energy_grid.log - INFO - 282-cp-py-1 energy grid changed to np16
+2025-05-25 20:04:54,301 - prepare_energy_grid.log - INFO - 116_1998745_abtpa-2 energy grid success
+2025-05-25 20:04:54,303 - prepare_energy_grid.log - INFO - 116_1998745_abtpa-2 energy grid changed to np16
+2025-05-25 20:04:56,104 - prepare_energy_grid.log - INFO - 76_1893340_1 energy grid success
+2025-05-25 20:04:56,106 - prepare_energy_grid.log - INFO - 76_1893340_1 energy grid changed to np16
+2025-05-25 20:04:58,140 - prepare_energy_grid.log - INFO - 138_1969815_2d-90 energy grid success
+2025-05-25 20:04:58,142 - prepare_energy_grid.log - INFO - 138_1969815_2d-90 energy grid changed to np16
+2025-05-25 20:05:00,931 - prepare_energy_grid.log - INFO - 187_1d-c energy grid success
+2025-05-25 20:05:00,933 - prepare_energy_grid.log - INFO - 187_1d-c energy grid changed to np16
+2025-05-25 20:05:03,886 - prepare_energy_grid.log - INFO - 87_1902587_tcpp-2dmf energy grid success
+2025-05-25 20:05:03,888 - prepare_energy_grid.log - INFO - 87_1902587_tcpp-2dmf energy grid changed to np16
+2025-05-25 20:05:09,270 - prepare_energy_grid.log - INFO - 163_2091096_hcof-101 energy grid success
+2025-05-25 20:05:09,272 - prepare_energy_grid.log - INFO - 163_2091096_hcof-101 energy grid changed to np16
+2025-05-25 20:05:11,546 - prepare_energy_grid.log - INFO - 179-hof-30 energy grid success
+2025-05-25 20:05:11,548 - prepare_energy_grid.log - INFO - 179-hof-30 energy grid changed to np16
+2025-05-25 20:05:14,183 - prepare_energy_grid.log - INFO - 254-ck1222a energy grid success
+2025-05-25 20:05:14,185 - prepare_energy_grid.log - INFO - 254-ck1222a energy grid changed to np16
+2025-05-25 20:05:15,329 - prepare_energy_grid.log - INFO - 28_1478358_t2-_240k energy grid success
+2025-05-25 20:05:15,330 - prepare_energy_grid.log - INFO - 28_1478358_t2-_240k energy grid changed to np16
+2025-05-25 20:05:16,857 - prepare_energy_grid.log - INFO - 263-bptca-2_hklf5 energy grid success
+2025-05-25 20:05:16,859 - prepare_energy_grid.log - INFO - 263-bptca-2_hklf5 energy grid changed to np16
+2025-05-25 20:05:19,542 - prepare_energy_grid.log - INFO - 142_2031631_8pcom-dmf energy grid success
+2025-05-25 20:05:19,544 - prepare_energy_grid.log - INFO - 142_2031631_8pcom-dmf energy grid changed to np16
+2025-05-25 20:05:21,775 - prepare_energy_grid.log - INFO - 168_2087504_hof-30 energy grid success
+2025-05-25 20:05:21,777 - prepare_energy_grid.log - INFO - 168_2087504_hof-30 energy grid changed to np16
+2025-05-25 20:05:24,972 - prepare_energy_grid.log - INFO - 43_1583115_cpos-3 energy grid success
+2025-05-25 20:05:24,974 - prepare_energy_grid.log - INFO - 43_1583115_cpos-3 energy grid changed to np16
+2025-05-25 20:05:28,872 - prepare_energy_grid.log - INFO - 1881ct-18c6-i energy grid success
+2025-05-25 20:05:28,874 - prepare_energy_grid.log - INFO - 1881ct-18c6-i energy grid changed to np16
+2025-05-25 20:05:32,585 - prepare_energy_grid.log - INFO - 51_1819782_tcf-2 energy grid success
+2025-05-25 20:05:32,587 - prepare_energy_grid.log - INFO - 51_1819782_tcf-2 energy grid changed to np16
+2025-05-25 20:05:35,384 - prepare_energy_grid.log - INFO - 49_1815223_hof1b energy grid success
+2025-05-25 20:05:35,386 - prepare_energy_grid.log - INFO - 49_1815223_hof1b energy grid changed to np16
+2025-05-25 20:05:36,590 - prepare_energy_grid.log - INFO - 152_2077900_pfc-77 energy grid success
+2025-05-25 20:05:36,593 - prepare_energy_grid.log - INFO - 152_2077900_pfc-77 energy grid changed to np16
+2025-05-25 20:05:40,006 - prepare_energy_grid.log - INFO - 109_1881304_mtocz energy grid success
+2025-05-25 20:05:40,008 - prepare_energy_grid.log - INFO - 109_1881304_mtocz energy grid changed to np16
+2025-05-25 20:05:42,349 - prepare_energy_grid.log - INFO - 32_1540573_np-cphata energy grid success
+2025-05-25 20:05:42,351 - prepare_energy_grid.log - INFO - 32_1540573_np-cphata energy grid changed to np16
+2025-05-25 20:05:44,069 - prepare_energy_grid.log - INFO - 250-hof-zstu-2 energy grid success
+2025-05-25 20:05:44,072 - prepare_energy_grid.log - INFO - 250-hof-zstu-2 energy grid changed to np16
+2025-05-25 20:05:46,660 - prepare_energy_grid.log - INFO - 168_2087502_hof-30e energy grid success
+2025-05-25 20:05:46,662 - prepare_energy_grid.log - INFO - 168_2087502_hof-30e energy grid changed to np16
+2025-05-25 20:05:48,413 - prepare_energy_grid.log - INFO - 29_1438257_hof-9-py energy grid success
+2025-05-25 20:05:48,417 - prepare_energy_grid.log - INFO - 29_1438257_hof-9-py energy grid changed to np16
+2025-05-25 20:05:50,776 - prepare_energy_grid.log - INFO - 270-fju-57 energy grid success
+2025-05-25 20:05:50,778 - prepare_energy_grid.log - INFO - 270-fju-57 energy grid changed to np16
+2025-05-25 20:05:54,751 - prepare_energy_grid.log - INFO - 55_1837135_2 energy grid success
+2025-05-25 20:05:54,753 - prepare_energy_grid.log - INFO - 55_1837135_2 energy grid changed to np16
+2025-05-25 20:05:56,896 - prepare_energy_grid.log - INFO - 37_1541099-xv energy grid success
+2025-05-25 20:05:56,899 - prepare_energy_grid.log - INFO - 37_1541099-xv energy grid changed to np16
+2025-05-25 20:06:02,428 - prepare_energy_grid.log - INFO - 102_1970873_74dmso energy grid success
+2025-05-25 20:06:02,430 - prepare_energy_grid.log - INFO - 102_1970873_74dmso energy grid changed to np16
+2025-05-25 20:06:05,386 - prepare_energy_grid.log - INFO - 292-hiam-103 energy grid success
+2025-05-25 20:06:05,388 - prepare_energy_grid.log - INFO - 292-hiam-103 energy grid changed to np16
+2025-05-25 20:06:08,841 - prepare_energy_grid.log - INFO - 142_2031630_8pcom-dmso energy grid success
+2025-05-25 20:06:08,843 - prepare_energy_grid.log - INFO - 142_2031630_8pcom-dmso energy grid changed to np16
+2025-05-25 20:06:11,389 - prepare_energy_grid.log - INFO - 41_1493602_d0-293k energy grid success
+2025-05-25 20:06:11,392 - prepare_energy_grid.log - INFO - 41_1493602_d0-293k energy grid changed to np16
+2025-05-25 20:06:13,759 - prepare_energy_grid.log - INFO - 92_1879988_mhof-2 energy grid success
+2025-05-25 20:06:13,761 - prepare_energy_grid.log - INFO - 92_1879988_mhof-2 energy grid changed to np16
+2025-05-25 20:06:15,294 - prepare_energy_grid.log - INFO - 128_2010570_pfc-33tea energy grid success
+2025-05-25 20:06:15,297 - prepare_energy_grid.log - INFO - 128_2010570_pfc-33tea energy grid changed to np16
+2025-05-25 20:06:19,345 - prepare_energy_grid.log - INFO - 2_g4ipbs0678 energy grid success
+2025-05-25 20:06:19,348 - prepare_energy_grid.log - INFO - 2_g4ipbs0678 energy grid changed to np16
+2025-05-25 20:06:22,916 - prepare_energy_grid.log - INFO - 115_2005568_cbpe-1deani energy grid success
+2025-05-25 20:06:22,918 - prepare_energy_grid.log - INFO - 115_2005568_cbpe-1deani energy grid changed to np16
+2025-05-25 20:06:25,015 - prepare_energy_grid.log - INFO - 48_1846101_5 energy grid success
+2025-05-25 20:06:25,017 - prepare_energy_grid.log - INFO - 48_1846101_5 energy grid changed to np16
+2025-05-25 20:06:29,764 - prepare_energy_grid.log - INFO - 27_1528352_hccf-1 energy grid success
+2025-05-25 20:06:29,766 - prepare_energy_grid.log - INFO - 27_1528352_hccf-1 energy grid changed to np16
+2025-05-25 20:06:32,856 - prepare_energy_grid.log - INFO - 54_1857528_pyvdw⊃chcl3 energy grid success
+2025-05-25 20:06:32,858 - prepare_energy_grid.log - INFO - 54_1857528_pyvdw⊃chcl3 energy grid changed to np16
+2025-05-25 20:06:35,210 - prepare_energy_grid.log - INFO - 19_1424089_tp-1 energy grid success
+2025-05-25 20:06:35,213 - prepare_energy_grid.log - INFO - 19_1424089_tp-1 energy grid changed to np16
+2025-05-25 20:06:38,788 - prepare_energy_grid.log - INFO - 73_1908805_hcof-4 energy grid success
+2025-05-25 20:06:38,790 - prepare_energy_grid.log - INFO - 73_1908805_hcof-4 energy grid changed to np16
+2025-05-25 20:06:41,296 - prepare_energy_grid.log - INFO - 78_1576305_1 energy grid success
+2025-05-25 20:06:41,299 - prepare_energy_grid.log - INFO - 78_1576305_1 energy grid changed to np16
+2025-05-25 20:06:46,552 - prepare_energy_grid.log - INFO - 32_1540571_cphat-1-tcb energy grid success
+2025-05-25 20:06:46,555 - prepare_energy_grid.log - INFO - 32_1540571_cphat-1-tcb energy grid changed to np16
+2025-05-25 20:06:48,391 - prepare_energy_grid.log - INFO - 48_1846107_19 energy grid success
+2025-05-25 20:06:48,393 - prepare_energy_grid.log - INFO - 48_1846107_19 energy grid changed to np16
+2025-05-25 20:07:02,903 - prepare_energy_grid.log - INFO - 15-jesse01_sq energy grid success
+2025-05-25 20:07:02,905 - prepare_energy_grid.log - INFO - 15-jesse01_sq energy grid changed to np16
+2025-05-25 20:07:04,657 - prepare_energy_grid.log - INFO - 190_hof-101-nh2 energy grid success
+2025-05-25 20:07:04,659 - prepare_energy_grid.log - INFO - 190_hof-101-nh2 energy grid changed to np16
+2025-05-25 20:07:06,635 - prepare_energy_grid.log - INFO - 3_822584_2dmf5c6h6s2a energy grid success
+2025-05-25 20:07:06,637 - prepare_energy_grid.log - INFO - 3_822584_2dmf5c6h6s2a energy grid changed to np16
+2025-05-25 20:07:08,324 - prepare_energy_grid.log - INFO - 2033 energy grid success
+2025-05-25 20:07:08,326 - prepare_energy_grid.log - INFO - 2033 energy grid changed to np16
+2025-05-25 20:07:11,104 - prepare_energy_grid.log - INFO - 178_ptc-235-mecn energy grid success
+2025-05-25 20:07:11,107 - prepare_energy_grid.log - INFO - 178_ptc-235-mecn energy grid changed to np16
+2025-05-25 20:07:13,211 - prepare_energy_grid.log - INFO - 145_2000806_pfc-26 energy grid success
+2025-05-25 20:07:13,213 - prepare_energy_grid.log - INFO - 145_2000806_pfc-26 energy grid changed to np16
+2025-05-25 20:07:15,113 - prepare_energy_grid.log - INFO - 159_2080628_cp-pp-3tcb energy grid success
+2025-05-25 20:07:15,116 - prepare_energy_grid.log - INFO - 159_2080628_cp-pp-3tcb energy grid changed to np16
+2025-05-25 20:07:18,181 - prepare_energy_grid.log - INFO - 5-13 energy grid success
+2025-05-25 20:07:18,183 - prepare_energy_grid.log - INFO - 5-13 energy grid changed to np16
+2025-05-25 20:07:19,438 - prepare_energy_grid.log - INFO - 249-zaf energy grid success
+2025-05-25 20:07:19,440 - prepare_energy_grid.log - INFO - 249-zaf energy grid changed to np16
+2025-05-25 20:07:21,324 - prepare_energy_grid.log - INFO - 148_1940052_seu-1 energy grid success
+2025-05-25 20:07:21,326 - prepare_energy_grid.log - INFO - 148_1940052_seu-1 energy grid changed to np16
+2025-05-25 20:07:23,493 - prepare_energy_grid.log - INFO - 275-cagehof-2_deso energy grid success
+2025-05-25 20:07:23,496 - prepare_energy_grid.log - INFO - 275-cagehof-2_deso energy grid changed to np16
+2025-05-25 20:07:25,453 - prepare_energy_grid.log - INFO - 40_1510308_hoifs-1 energy grid success
+2025-05-25 20:07:25,456 - prepare_energy_grid.log - INFO - 40_1510308_hoifs-1 energy grid changed to np16
+2025-05-25 20:07:27,338 - prepare_energy_grid.log - INFO - 2292278848 energy grid success
+2025-05-25 20:07:27,340 - prepare_energy_grid.log - INFO - 2292278848 energy grid changed to np16
+2025-05-25 20:07:29,454 - prepare_energy_grid.log - INFO - 271-1 energy grid success
+2025-05-25 20:07:29,456 - prepare_energy_grid.log - INFO - 271-1 energy grid changed to np16
+2025-05-25 20:07:31,362 - prepare_energy_grid.log - INFO - 2_g4ebs3 energy grid success
+2025-05-25 20:07:31,364 - prepare_energy_grid.log - INFO - 2_g4ebs3 energy grid changed to np16
+2025-05-25 20:07:34,166 - prepare_energy_grid.log - INFO - 142_2031632_8pcom-act energy grid success
+2025-05-25 20:07:34,168 - prepare_energy_grid.log - INFO - 142_2031632_8pcom-act energy grid changed to np16
+2025-05-25 20:07:36,494 - prepare_energy_grid.log - INFO - 21_1473368_hof-gs-10 energy grid success
+2025-05-25 20:07:36,496 - prepare_energy_grid.log - INFO - 21_1473368_hof-gs-10 energy grid changed to np16
+2025-05-25 20:07:39,271 - prepare_energy_grid.log - INFO - 1_10 energy grid success
+2025-05-25 20:07:39,273 - prepare_energy_grid.log - INFO - 1_10 energy grid changed to np16
+2025-05-25 20:07:41,289 - prepare_energy_grid.log - INFO - 66_1886472_tpm_h2o-296k energy grid success
+2025-05-25 20:07:41,291 - prepare_energy_grid.log - INFO - 66_1886472_tpm_h2o-296k energy grid changed to np16
+2025-05-25 20:07:42,065 - prepare_energy_grid.log - INFO - 184_cfa-20-br energy grid success
+2025-05-25 20:07:42,067 - prepare_energy_grid.log - INFO - 184_cfa-20-br energy grid changed to np16
+2025-05-25 20:07:46,365 - prepare_energy_grid.log - INFO - 48_1846099_10 energy grid success
+2025-05-25 20:07:46,367 - prepare_energy_grid.log - INFO - 48_1846099_10 energy grid changed to np16
+2025-05-25 20:07:49,466 - prepare_energy_grid.log - INFO - 119_1974656_dy4 energy grid success
+2025-05-25 20:07:49,467 - prepare_energy_grid.log - INFO - 119_1974656_dy4 energy grid changed to np16
+2025-05-25 20:07:53,216 - prepare_energy_grid.log - INFO - 102_1970870_10 energy grid success
+2025-05-25 20:07:53,218 - prepare_energy_grid.log - INFO - 102_1970870_10 energy grid changed to np16
+2025-05-25 20:07:54,834 - prepare_energy_grid.log - INFO - 193-dap-hof-1 energy grid success
+2025-05-25 20:07:54,836 - prepare_energy_grid.log - INFO - 193-dap-hof-1 energy grid changed to np16
+2025-05-25 20:07:57,819 - prepare_energy_grid.log - INFO - 62_1877481_cphatn-1tcb energy grid success
+2025-05-25 20:07:57,821 - prepare_energy_grid.log - INFO - 62_1877481_cphatn-1tcb energy grid changed to np16
+2025-05-25 20:08:02,537 - prepare_energy_grid.log - INFO - 163_2090889_m1 energy grid success
+2025-05-25 20:08:02,539 - prepare_energy_grid.log - INFO - 163_2090889_m1 energy grid changed to np16
+2025-05-25 20:08:05,494 - prepare_energy_grid.log - INFO - 28_1478355_t1chcl33 energy grid success
+2025-05-25 20:08:05,495 - prepare_energy_grid.log - INFO - 28_1478355_t1chcl33 energy grid changed to np16
+2025-05-25 20:08:09,578 - prepare_energy_grid.log - INFO - 84_1867936_10 energy grid success
+2025-05-25 20:08:09,580 - prepare_energy_grid.log - INFO - 84_1867936_10 energy grid changed to np16
+2025-05-25 20:08:14,927 - prepare_energy_grid.log - INFO - 2_g4tbbs0671 energy grid success
+2025-05-25 20:08:14,929 - prepare_energy_grid.log - INFO - 2_g4tbbs0671 energy grid changed to np16
+2025-05-25 20:08:20,673 - prepare_energy_grid.log - INFO - 160_2056896_tpe4benzoate energy grid success
+2025-05-25 20:08:20,675 - prepare_energy_grid.log - INFO - 160_2056896_tpe4benzoate energy grid changed to np16
+2025-05-25 20:08:24,516 - prepare_energy_grid.log - INFO - 9_1427359_hof-2-r-pea energy grid success
+2025-05-25 20:08:24,518 - prepare_energy_grid.log - INFO - 9_1427359_hof-2-r-pea energy grid changed to np16
+2025-05-25 20:08:27,791 - prepare_energy_grid.log - INFO - 84_1867932_6 energy grid success
+2025-05-25 20:08:27,793 - prepare_energy_grid.log - INFO - 84_1867932_6 energy grid changed to np16
+2025-05-25 20:08:30,267 - prepare_energy_grid.log - INFO - 48_1846102_3 energy grid success
+2025-05-25 20:08:30,269 - prepare_energy_grid.log - INFO - 48_1846102_3 energy grid changed to np16
+2025-05-25 20:08:32,147 - prepare_energy_grid.log - INFO - 192hof-tripod energy grid success
+2025-05-25 20:08:32,149 - prepare_energy_grid.log - INFO - 192hof-tripod energy grid changed to np16
+2025-05-25 20:08:34,811 - prepare_energy_grid.log - INFO - 37_1541090-vi energy grid success
+2025-05-25 20:08:34,813 - prepare_energy_grid.log - INFO - 37_1541090-vi energy grid changed to np16
+2025-05-25 20:08:36,594 - prepare_energy_grid.log - INFO - 162_2076404_pyia_298k energy grid success
+2025-05-25 20:08:36,596 - prepare_energy_grid.log - INFO - 162_2076404_pyia_298k energy grid changed to np16
+2025-05-25 20:08:38,696 - prepare_energy_grid.log - INFO - 2_g4nbs energy grid success
+2025-05-25 20:08:38,698 - prepare_energy_grid.log - INFO - 2_g4nbs energy grid changed to np16
+2025-05-25 20:08:40,981 - prepare_energy_grid.log - INFO - 2162209418zhof energy grid success
+2025-05-25 20:08:40,983 - prepare_energy_grid.log - INFO - 2162209418zhof energy grid changed to np16
+2025-05-25 20:08:53,959 - prepare_energy_grid.log - INFO - 84_1867926_1a energy grid success
+2025-05-25 20:08:53,962 - prepare_energy_grid.log - INFO - 84_1867926_1a energy grid changed to np16
+2025-05-25 20:08:56,029 - prepare_energy_grid.log - INFO - 167_pfc-55 energy grid success
+2025-05-25 20:08:56,031 - prepare_energy_grid.log - INFO - 167_pfc-55 energy grid changed to np16
+2025-05-25 20:08:58,984 - prepare_energy_grid.log - INFO - 2_g4bbs13 energy grid success
+2025-05-25 20:08:58,986 - prepare_energy_grid.log - INFO - 2_g4bbs13 energy grid changed to np16
+2025-05-25 20:09:01,407 - prepare_energy_grid.log - INFO - 168_2087501_hof-30m energy grid success
+2025-05-25 20:09:01,409 - prepare_energy_grid.log - INFO - 168_2087501_hof-30m energy grid changed to np16
+2025-05-25 20:09:03,572 - prepare_energy_grid.log - INFO - 54_1857531_pyclose energy grid success
+2025-05-25 20:09:03,574 - prepare_energy_grid.log - INFO - 54_1857531_pyclose energy grid changed to np16
+2025-05-25 20:09:09,629 - prepare_energy_grid.log - INFO - 35_1573633_hof-11 energy grid success
+2025-05-25 20:09:09,632 - prepare_energy_grid.log - INFO - 35_1573633_hof-11 energy grid changed to np16
+2025-05-25 20:09:11,643 - prepare_energy_grid.log - INFO - 38_1578415_tpme-3 energy grid success
+2025-05-25 20:09:11,646 - prepare_energy_grid.log - INFO - 38_1578415_tpme-3 energy grid changed to np16
+2025-05-25 20:09:13,481 - prepare_energy_grid.log - INFO - 28_1478365_t1c5h1234 energy grid success
+2025-05-25 20:09:13,483 - prepare_energy_grid.log - INFO - 28_1478365_t1c5h1234 energy grid changed to np16
+2025-05-25 20:09:14,861 - prepare_energy_grid.log - INFO - 219tri-pmdi-br energy grid success
+2025-05-25 20:09:14,863 - prepare_energy_grid.log - INFO - 219tri-pmdi-br energy grid changed to np16
+2025-05-25 20:09:18,989 - prepare_energy_grid.log - INFO - 55_1837139_1’-7min energy grid success
+2025-05-25 20:09:18,991 - prepare_energy_grid.log - INFO - 55_1837139_1’-7min energy grid changed to np16
+2025-05-25 20:09:21,667 - prepare_energy_grid.log - INFO - 97_1907797_hof-76 energy grid success
+2025-05-25 20:09:21,669 - prepare_energy_grid.log - INFO - 97_1907797_hof-76 energy grid changed to np16
+2025-05-25 20:09:27,329 - prepare_energy_grid.log - INFO - 1882ct-18c6-ii energy grid success
+2025-05-25 20:09:27,332 - prepare_energy_grid.log - INFO - 1882ct-18c6-ii energy grid changed to np16
+2025-05-25 20:09:30,269 - prepare_energy_grid.log - INFO - 43_1583114_cpos-2 energy grid success
+2025-05-25 20:09:30,271 - prepare_energy_grid.log - INFO - 43_1583114_cpos-2 energy grid changed to np16
+2025-05-25 20:09:33,428 - prepare_energy_grid.log - INFO - 193-dap_anhydrate energy grid success
+2025-05-25 20:09:33,430 - prepare_energy_grid.log - INFO - 193-dap_anhydrate energy grid changed to np16
+2025-05-25 20:09:35,689 - prepare_energy_grid.log - INFO - 2_g4bbs21 energy grid success
+2025-05-25 20:09:35,691 - prepare_energy_grid.log - INFO - 2_g4bbs21 energy grid changed to np16
+2025-05-25 20:09:38,265 - prepare_energy_grid.log - INFO - 293-bnh2 energy grid success
+2025-05-25 20:09:38,268 - prepare_energy_grid.log - INFO - 293-bnh2 energy grid changed to np16
+2025-05-25 20:09:42,424 - prepare_energy_grid.log - INFO - 293-bbiphen_2d energy grid success
+2025-05-25 20:09:42,426 - prepare_energy_grid.log - INFO - 293-bbiphen_2d energy grid changed to np16
+2025-05-25 20:09:44,947 - prepare_energy_grid.log - INFO - 140_2046914_zju-hof-10 energy grid success
+2025-05-25 20:09:44,950 - prepare_energy_grid.log - INFO - 140_2046914_zju-hof-10 energy grid changed to np16
+2025-05-25 20:09:46,746 - prepare_energy_grid.log - INFO - 63_1866018_sq-2tfa energy grid success
+2025-05-25 20:09:46,748 - prepare_energy_grid.log - INFO - 63_1866018_sq-2tfa energy grid changed to np16
+2025-05-25 20:09:49,592 - prepare_energy_grid.log - INFO - 195 energy grid success
+2025-05-25 20:09:49,594 - prepare_energy_grid.log - INFO - 195 energy grid changed to np16
+2025-05-25 20:09:51,832 - prepare_energy_grid.log - INFO - 49_1815225_hof2b energy grid success
+2025-05-25 20:09:51,834 - prepare_energy_grid.log - INFO - 49_1815225_hof2b energy grid changed to np16
+2025-05-25 20:09:54,788 - prepare_energy_grid.log - INFO - 149_1962984_bpmcz-p2 energy grid success
+2025-05-25 20:09:54,790 - prepare_energy_grid.log - INFO - 149_1962984_bpmcz-p2 energy grid changed to np16
+2025-05-25 20:09:57,844 - prepare_energy_grid.log - INFO - 2_g4fbs0516 energy grid success
+2025-05-25 20:09:57,847 - prepare_energy_grid.log - INFO - 2_g4fbs0516 energy grid changed to np16
+2025-05-25 20:10:01,452 - prepare_energy_grid.log - INFO - 79_1890648_hof-fe energy grid success
+2025-05-25 20:10:01,454 - prepare_energy_grid.log - INFO - 79_1890648_hof-fe energy grid changed to np16
+2025-05-25 20:10:07,829 - prepare_energy_grid.log - INFO - 187_3d-thf-pbenzoquinone energy grid success
+2025-05-25 20:10:07,831 - prepare_energy_grid.log - INFO - 187_3d-thf-pbenzoquinone energy grid changed to np16
+2025-05-25 20:10:10,423 - prepare_energy_grid.log - INFO - 88_1850834_3 energy grid success
+2025-05-25 20:10:10,425 - prepare_energy_grid.log - INFO - 88_1850834_3 energy grid changed to np16
+2025-05-25 20:10:12,468 - prepare_energy_grid.log - INFO - 126_2027309_cpdbc-1 energy grid success
+2025-05-25 20:10:12,470 - prepare_energy_grid.log - INFO - 126_2027309_cpdbc-1 energy grid changed to np16
+2025-05-25 20:10:17,444 - prepare_energy_grid.log - INFO - 1882ct-18c6-iii energy grid success
+2025-05-25 20:10:17,446 - prepare_energy_grid.log - INFO - 1882ct-18c6-iii energy grid changed to np16
+2025-05-25 20:10:19,765 - prepare_energy_grid.log - INFO - 148_1940053_seu-2 energy grid success
+2025-05-25 20:10:19,767 - prepare_energy_grid.log - INFO - 148_1940053_seu-2 energy grid changed to np16
+2025-05-25 20:10:24,100 - prepare_energy_grid.log - INFO - 2_g4ipbs0675 energy grid success
+2025-05-25 20:10:24,103 - prepare_energy_grid.log - INFO - 2_g4ipbs0675 energy grid changed to np16
+2025-05-25 20:10:26,672 - prepare_energy_grid.log - INFO - 2212235806 energy grid success
+2025-05-25 20:10:26,674 - prepare_energy_grid.log - INFO - 2212235806 energy grid changed to np16
+2025-05-25 20:10:33,993 - prepare_energy_grid.log - INFO - 95_1865242_pethof-2 energy grid success
+2025-05-25 20:10:33,995 - prepare_energy_grid.log - INFO - 95_1865242_pethof-2 energy grid changed to np16
+2025-05-25 20:10:36,676 - prepare_energy_grid.log - INFO - 108_1950449_zrt-1- energy grid success
+2025-05-25 20:10:36,678 - prepare_energy_grid.log - INFO - 108_1950449_zrt-1- energy grid changed to np16
+2025-05-25 20:10:39,160 - prepare_energy_grid.log - INFO - 1_9 energy grid success
+2025-05-25 20:10:39,163 - prepare_energy_grid.log - INFO - 1_9 energy grid changed to np16
+2025-05-25 20:10:41,523 - prepare_energy_grid.log - INFO - 88_1850862_2 energy grid success
+2025-05-25 20:10:41,525 - prepare_energy_grid.log - INFO - 88_1850862_2 energy grid changed to np16
+2025-05-25 20:10:43,080 - prepare_energy_grid.log - INFO - 186_pfc-72-co energy grid success
+2025-05-25 20:10:43,082 - prepare_energy_grid.log - INFO - 186_pfc-72-co energy grid changed to np16
+2025-05-25 20:10:46,993 - prepare_energy_grid.log - INFO - 64_1823162_1-ni energy grid success
+2025-05-25 20:10:46,995 - prepare_energy_grid.log - INFO - 64_1823162_1-ni energy grid changed to np16
+2025-05-25 20:10:48,387 - prepare_energy_grid.log - INFO - 297_sof-8 energy grid success
+2025-05-25 20:10:48,389 - prepare_energy_grid.log - INFO - 297_sof-8 energy grid changed to np16
+2025-05-25 20:10:51,337 - prepare_energy_grid.log - INFO - 82_1888145_cl-1 energy grid success
+2025-05-25 20:10:51,339 - prepare_energy_grid.log - INFO - 82_1888145_cl-1 energy grid changed to np16
+2025-05-25 20:10:55,455 - prepare_energy_grid.log - INFO - 84_1867929_3 energy grid success
+2025-05-25 20:10:55,456 - prepare_energy_grid.log - INFO - 84_1867929_3 energy grid changed to np16
+2025-05-25 20:10:58,585 - prepare_energy_grid.log - INFO - 87_1902589_tcpp-6dmf energy grid success
+2025-05-25 20:10:58,587 - prepare_energy_grid.log - INFO - 87_1902589_tcpp-6dmf energy grid changed to np16
+2025-05-25 20:11:01,190 - prepare_energy_grid.log - INFO - 260-hof-nbdadma energy grid success
+2025-05-25 20:11:01,192 - prepare_energy_grid.log - INFO - 260-hof-nbdadma energy grid changed to np16
+2025-05-25 20:11:05,810 - prepare_energy_grid.log - INFO - 232hof-tppas energy grid success
+2025-05-25 20:11:05,812 - prepare_energy_grid.log - INFO - 232hof-tppas energy grid changed to np16
+2025-05-25 20:11:10,794 - prepare_energy_grid.log - INFO - 75_1889093_16asf6 energy grid success
+2025-05-25 20:11:10,796 - prepare_energy_grid.log - INFO - 75_1889093_16asf6 energy grid changed to np16
+2025-05-25 20:11:12,406 - prepare_energy_grid.log - INFO - 296-pyca-higha energy grid success
+2025-05-25 20:11:12,409 - prepare_energy_grid.log - INFO - 296-pyca-higha energy grid changed to np16
+2025-05-25 20:11:13,926 - prepare_energy_grid.log - INFO - 42_1579888_phtcz-2 energy grid success
+2025-05-25 20:11:13,927 - prepare_energy_grid.log - INFO - 42_1579888_phtcz-2 energy grid changed to np16
+2025-05-25 20:11:16,394 - prepare_energy_grid.log - INFO - 82_1888148_br3-1 energy grid success
+2025-05-25 20:11:16,395 - prepare_energy_grid.log - INFO - 82_1888148_br3-1 energy grid changed to np16
+2025-05-25 20:11:18,846 - prepare_energy_grid.log - INFO - 119_1974671_dy-hhfs energy grid success
+2025-05-25 20:11:18,848 - prepare_energy_grid.log - INFO - 119_1974671_dy-hhfs energy grid changed to np16
+2025-05-25 20:11:23,168 - prepare_energy_grid.log - INFO - 75_1889092_1a6pf6 energy grid success
+2025-05-25 20:11:23,169 - prepare_energy_grid.log - INFO - 75_1889092_1a6pf6 energy grid changed to np16
+2025-05-25 20:11:25,254 - prepare_energy_grid.log - INFO - 218-hof-tcpb-298 energy grid success
+2025-05-25 20:11:25,255 - prepare_energy_grid.log - INFO - 218-hof-tcpb-298 energy grid changed to np16
+2025-05-25 20:11:28,267 - prepare_energy_grid.log - INFO - 79_1890647_hof-co energy grid success
+2025-05-25 20:11:28,270 - prepare_energy_grid.log - INFO - 79_1890647_hof-co energy grid changed to np16
+2025-05-25 20:11:29,871 - prepare_energy_grid.log - INFO - 263-tptca-1 energy grid success
+2025-05-25 20:11:29,873 - prepare_energy_grid.log - INFO - 263-tptca-1 energy grid changed to np16
+2025-05-25 20:11:37,167 - prepare_energy_grid.log - INFO - 5-4 energy grid success
+2025-05-25 20:11:37,169 - prepare_energy_grid.log - INFO - 5-4 energy grid changed to np16
+2025-05-25 20:11:39,853 - prepare_energy_grid.log - INFO - 209-zioc2-4h2o-rt energy grid success
+2025-05-25 20:11:39,854 - prepare_energy_grid.log - INFO - 209-zioc2-4h2o-rt energy grid changed to np16
+2025-05-25 20:11:45,007 - prepare_energy_grid.log - INFO - 273-nku-1000-100k energy grid success
+2025-05-25 20:11:45,009 - prepare_energy_grid.log - INFO - 273-nku-1000-100k energy grid changed to np16
+2025-05-25 20:11:58,270 - prepare_energy_grid.log - INFO - 178_ptc-235 energy grid success
+2025-05-25 20:11:58,271 - prepare_energy_grid.log - INFO - 178_ptc-235 energy grid changed to np16
+2025-05-25 20:12:01,468 - prepare_energy_grid.log - INFO - 9_1427358_hof-2 energy grid success
+2025-05-25 20:12:01,471 - prepare_energy_grid.log - INFO - 9_1427358_hof-2 energy grid changed to np16
+2025-05-25 20:12:03,818 - prepare_energy_grid.log - INFO - 235_phof-1re energy grid success
+2025-05-25 20:12:03,821 - prepare_energy_grid.log - INFO - 235_phof-1re energy grid changed to np16
+2025-05-25 20:12:06,834 - prepare_energy_grid.log - INFO - 129_1984230_upc-h9 energy grid success
+2025-05-25 20:12:06,836 - prepare_energy_grid.log - INFO - 129_1984230_upc-h9 energy grid changed to np16
+2025-05-25 20:12:08,536 - prepare_energy_grid.log - INFO - 259-etta_cl1br3 energy grid success
+2025-05-25 20:12:08,538 - prepare_energy_grid.log - INFO - 259-etta_cl1br3 energy grid changed to np16
+2025-05-25 20:12:11,967 - prepare_energy_grid.log - INFO - 160_2056903_tpe-2bph energy grid success
+2025-05-25 20:12:11,969 - prepare_energy_grid.log - INFO - 160_2056903_tpe-2bph energy grid changed to np16
+2025-05-25 20:12:15,314 - prepare_energy_grid.log - INFO - 129_1984228_upc-h7 energy grid success
+2025-05-25 20:12:15,316 - prepare_energy_grid.log - INFO - 129_1984228_upc-h7 energy grid changed to np16
+2025-05-25 20:12:18,421 - prepare_energy_grid.log - INFO - 187_3d-benzene energy grid success
+2025-05-25 20:12:18,423 - prepare_energy_grid.log - INFO - 187_3d-benzene energy grid changed to np16
+2025-05-25 20:12:29,468 - prepare_energy_grid.log - INFO - 197-3ct-18c6-i energy grid success
+2025-05-25 20:12:29,470 - prepare_energy_grid.log - INFO - 197-3ct-18c6-i energy grid changed to np16
+2025-05-25 20:12:32,772 - prepare_energy_grid.log - INFO - 53_1576297_1 energy grid success
+2025-05-25 20:12:32,774 - prepare_energy_grid.log - INFO - 53_1576297_1 energy grid changed to np16
+2025-05-25 20:12:36,161 - prepare_energy_grid.log - INFO - 199-2088382 energy grid success
+2025-05-25 20:12:36,162 - prepare_energy_grid.log - INFO - 199-2088382 energy grid changed to np16
+2025-05-25 20:12:38,392 - prepare_energy_grid.log - INFO - 2272235813 energy grid success
+2025-05-25 20:12:38,395 - prepare_energy_grid.log - INFO - 2272235813 energy grid changed to np16
+2025-05-25 20:12:40,014 - prepare_energy_grid.log - INFO - 186_pfc-71 energy grid success
+2025-05-25 20:12:40,016 - prepare_energy_grid.log - INFO - 186_pfc-71 energy grid changed to np16
+2025-05-25 20:12:41,917 - prepare_energy_grid.log - INFO - 210-xhof energy grid success
+2025-05-25 20:12:41,918 - prepare_energy_grid.log - INFO - 210-xhof energy grid changed to np16
+2025-05-25 20:12:46,341 - prepare_energy_grid.log - INFO - 6_880742_2as-tpmatcbd-pos1a energy grid success
+2025-05-25 20:12:46,342 - prepare_energy_grid.log - INFO - 6_880742_2as-tpmatcbd-pos1a energy grid changed to np16
+2025-05-25 20:12:51,256 - prepare_energy_grid.log - INFO - 7_907057_sbds_tpma_gf energy grid success
+2025-05-25 20:12:51,259 - prepare_energy_grid.log - INFO - 7_907057_sbds_tpma_gf energy grid changed to np16
+2025-05-25 20:12:55,229 - prepare_energy_grid.log - INFO - 2_g4mbs0516 energy grid success
+2025-05-25 20:12:55,231 - prepare_energy_grid.log - INFO - 2_g4mbs0516 energy grid changed to np16
+2025-05-25 20:12:57,683 - prepare_energy_grid.log - INFO - 2232241288hof-fju-8 energy grid success
+2025-05-25 20:12:57,685 - prepare_energy_grid.log - INFO - 2232241288hof-fju-8 energy grid changed to np16
+2025-05-25 20:12:59,082 - prepare_energy_grid.log - INFO - 70_1898279_hof1⊃thiophene energy grid success
+2025-05-25 20:12:59,084 - prepare_energy_grid.log - INFO - 70_1898279_hof1⊃thiophene energy grid changed to np16
+2025-05-25 20:13:01,558 - prepare_energy_grid.log - INFO - 131_1976307_upc-h5 energy grid success
+2025-05-25 20:13:01,560 - prepare_energy_grid.log - INFO - 131_1976307_upc-h5 energy grid changed to np16
+2025-05-25 20:13:03,999 - prepare_energy_grid.log - INFO - 143_1980599_smof-asfsix-1 energy grid success
+2025-05-25 20:13:04,001 - prepare_energy_grid.log - INFO - 143_1980599_smof-asfsix-1 energy grid changed to np16
+2025-05-25 20:13:06,541 - prepare_energy_grid.log - INFO - 218-hof-tcpb-373 energy grid success
+2025-05-25 20:13:06,543 - prepare_energy_grid.log - INFO - 218-hof-tcpb-373 energy grid changed to np16
+2025-05-25 20:13:08,827 - prepare_energy_grid.log - INFO - 34_1563352_cpsm-2 energy grid success
+2025-05-25 20:13:08,829 - prepare_energy_grid.log - INFO - 34_1563352_cpsm-2 energy grid changed to np16
+2025-05-25 20:13:10,941 - prepare_energy_grid.log - INFO - 89_1916384_1 energy grid success
+2025-05-25 20:13:10,942 - prepare_energy_grid.log - INFO - 89_1916384_1 energy grid changed to np16
+2025-05-25 20:13:13,311 - prepare_energy_grid.log - INFO - 301-pttcn-1 energy grid success
+2025-05-25 20:13:13,313 - prepare_energy_grid.log - INFO - 301-pttcn-1 energy grid changed to np16
+2025-05-25 20:13:14,838 - prepare_energy_grid.log - INFO - 258-hof-lifm-6 energy grid success
+2025-05-25 20:13:14,841 - prepare_energy_grid.log - INFO - 258-hof-lifm-6 energy grid changed to np16
+2025-05-25 20:13:17,193 - prepare_energy_grid.log - INFO - 94_1885768_upc-h4 energy grid success
+2025-05-25 20:13:17,195 - prepare_energy_grid.log - INFO - 94_1885768_upc-h4 energy grid changed to np16
+2025-05-25 20:13:21,022 - prepare_energy_grid.log - INFO - 49_1815227_hof3b energy grid success
+2025-05-25 20:13:21,024 - prepare_energy_grid.log - INFO - 49_1815227_hof3b energy grid changed to np16
+2025-05-25 20:13:25,310 - prepare_energy_grid.log - INFO - 142_2031629_8pcom-tol energy grid success
+2025-05-25 20:13:25,312 - prepare_energy_grid.log - INFO - 142_2031629_8pcom-tol energy grid changed to np16
+2025-05-25 20:13:29,449 - prepare_energy_grid.log - INFO - 45_1555045_2a energy grid success
+2025-05-25 20:13:29,451 - prepare_energy_grid.log - INFO - 45_1555045_2a energy grid changed to np16
+2025-05-25 20:13:31,296 - prepare_energy_grid.log - INFO - 186_pfc-73-cu energy grid success
+2025-05-25 20:13:31,298 - prepare_energy_grid.log - INFO - 186_pfc-73-cu energy grid changed to np16
+2025-05-25 20:13:33,857 - prepare_energy_grid.log - INFO - 13-2d2_nmp energy grid success
+2025-05-25 20:13:33,859 - prepare_energy_grid.log - INFO - 13-2d2_nmp energy grid changed to np16
+2025-05-25 20:13:37,774 - prepare_energy_grid.log - INFO - 2302240104 energy grid success
+2025-05-25 20:13:37,776 - prepare_energy_grid.log - INFO - 2302240104 energy grid changed to np16
+2025-05-25 20:13:41,308 - prepare_energy_grid.log - INFO - 28_1478357_t1toluene3 energy grid success
+2025-05-25 20:13:41,309 - prepare_energy_grid.log - INFO - 28_1478357_t1toluene3 energy grid changed to np16
+2025-05-25 20:13:44,444 - prepare_energy_grid.log - INFO - 271-2 energy grid success
+2025-05-25 20:13:44,446 - prepare_energy_grid.log - INFO - 271-2 energy grid changed to np16
+2025-05-25 20:13:46,381 - prepare_energy_grid.log - INFO - 253-hof-fju-46 energy grid success
+2025-05-25 20:13:46,382 - prepare_energy_grid.log - INFO - 253-hof-fju-46 energy grid changed to np16
+2025-05-25 20:13:47,647 - prepare_energy_grid.log - INFO - 231hof-fju-88 energy grid success
+2025-05-25 20:13:47,649 - prepare_energy_grid.log - INFO - 231hof-fju-88 energy grid changed to np16
+2025-05-25 20:13:50,141 - prepare_energy_grid.log - INFO - 159_2080627_cp-pp-2tcb energy grid success
+2025-05-25 20:13:50,143 - prepare_energy_grid.log - INFO - 159_2080627_cp-pp-2tcb energy grid changed to np16
+2025-05-25 20:13:54,496 - prepare_energy_grid.log - INFO - 13-2d1_mebz energy grid success
+2025-05-25 20:13:54,499 - prepare_energy_grid.log - INFO - 13-2d1_mebz energy grid changed to np16
+2025-05-25 20:13:56,400 - prepare_energy_grid.log - INFO - 58_1841048_-tmahac energy grid success
+2025-05-25 20:13:56,402 - prepare_energy_grid.log - INFO - 58_1841048_-tmahac energy grid changed to np16
+2025-05-25 20:13:58,431 - prepare_energy_grid.log - INFO - 264-cp-py-3 energy grid success
+2025-05-25 20:13:58,433 - prepare_energy_grid.log - INFO - 264-cp-py-3 energy grid changed to np16
+2025-05-25 20:14:01,412 - prepare_energy_grid.log - INFO - 37_1541088-iv energy grid success
+2025-05-25 20:14:01,413 - prepare_energy_grid.log - INFO - 37_1541088-iv energy grid changed to np16
+2025-05-25 20:14:03,992 - prepare_energy_grid.log - INFO - 182_ihof-3 energy grid success
+2025-05-25 20:14:03,993 - prepare_energy_grid.log - INFO - 182_ihof-3 energy grid changed to np16
+2025-05-25 20:14:05,776 - prepare_energy_grid.log - INFO - 72_1883913_pfc-5 energy grid success
+2025-05-25 20:14:05,779 - prepare_energy_grid.log - INFO - 72_1883913_pfc-5 energy grid changed to np16
+2025-05-25 20:14:08,116 - prepare_energy_grid.log - INFO - 138_1969816_2d-82 energy grid success
+2025-05-25 20:14:08,118 - prepare_energy_grid.log - INFO - 138_1969816_2d-82 energy grid changed to np16
+2025-05-25 20:14:10,140 - prepare_energy_grid.log - INFO - 259-etta_i energy grid success
+2025-05-25 20:14:10,142 - prepare_energy_grid.log - INFO - 259-etta_i energy grid changed to np16
+2025-05-25 20:14:12,090 - prepare_energy_grid.log - INFO - 151-tolhat-1 energy grid success
+2025-05-25 20:14:12,092 - prepare_energy_grid.log - INFO - 151-tolhat-1 energy grid changed to np16
+2025-05-25 20:14:14,254 - prepare_energy_grid.log - INFO - 162_2076399_pycalow-a energy grid success
+2025-05-25 20:14:14,256 - prepare_energy_grid.log - INFO - 162_2076399_pycalow-a energy grid changed to np16
+2025-05-25 20:14:17,670 - prepare_energy_grid.log - INFO - 45_1555044_1d energy grid success
+2025-05-25 20:14:17,672 - prepare_energy_grid.log - INFO - 45_1555044_1d energy grid changed to np16
+2025-05-25 20:14:19,720 - prepare_energy_grid.log - INFO - 258-hof-lifm-10 energy grid success
+2025-05-25 20:14:19,722 - prepare_energy_grid.log - INFO - 258-hof-lifm-10 energy grid changed to np16
+2025-05-25 20:14:21,505 - prepare_energy_grid.log - INFO - 37_1541085-i energy grid success
+2025-05-25 20:14:21,508 - prepare_energy_grid.log - INFO - 37_1541085-i energy grid changed to np16
+2025-05-25 20:14:23,975 - prepare_energy_grid.log - INFO - 160_2056902_tpe2bpy energy grid success
+2025-05-25 20:14:23,977 - prepare_energy_grid.log - INFO - 160_2056902_tpe2bpy energy grid changed to np16
+2025-05-25 20:14:25,533 - prepare_energy_grid.log - INFO - 2031d energy grid success
+2025-05-25 20:14:25,535 - prepare_energy_grid.log - INFO - 2031d energy grid changed to np16
+2025-05-25 20:14:28,062 - prepare_energy_grid.log - INFO - 19_1457115_t12-1 energy grid success
+2025-05-25 20:14:28,064 - prepare_energy_grid.log - INFO - 19_1457115_t12-1 energy grid changed to np16
+2025-05-25 20:14:31,115 - prepare_energy_grid.log - INFO - 109_1881305_ptocz energy grid success
+2025-05-25 20:14:31,118 - prepare_energy_grid.log - INFO - 109_1881305_ptocz energy grid changed to np16
+2025-05-25 20:14:33,464 - prepare_energy_grid.log - INFO - 104_1857375_1 energy grid success
+2025-05-25 20:14:33,466 - prepare_energy_grid.log - INFO - 104_1857375_1 energy grid changed to np16
+2025-05-25 20:14:34,922 - prepare_energy_grid.log - INFO - 10-sof-7 energy grid success
+2025-05-25 20:14:34,924 - prepare_energy_grid.log - INFO - 10-sof-7 energy grid changed to np16
+2025-05-25 20:14:36,637 - prepare_energy_grid.log - INFO - 14_1044789_hof-7 energy grid success
+2025-05-25 20:14:36,639 - prepare_energy_grid.log - INFO - 14_1044789_hof-7 energy grid changed to np16
+2025-05-25 20:14:41,255 - prepare_energy_grid.log - INFO - 118_1991982_pentamof-3 energy grid success
+2025-05-25 20:14:41,258 - prepare_energy_grid.log - INFO - 118_1991982_pentamof-3 energy grid changed to np16
+2025-05-25 20:14:44,384 - prepare_energy_grid.log - INFO - 150-hof-fju-4 energy grid success
+2025-05-25 20:14:44,386 - prepare_energy_grid.log - INFO - 150-hof-fju-4 energy grid changed to np16
+2025-05-25 20:14:47,770 - prepare_energy_grid.log - INFO - 2_g4ibs26 energy grid success
+2025-05-25 20:14:47,772 - prepare_energy_grid.log - INFO - 2_g4ibs26 energy grid changed to np16
+2025-05-25 20:14:51,239 - prepare_energy_grid.log - INFO - 73_1908804_p5 energy grid success
+2025-05-25 20:14:51,240 - prepare_energy_grid.log - INFO - 73_1908804_p5 energy grid changed to np16
+2025-05-25 20:14:53,718 - prepare_energy_grid.log - INFO - 28_1478362_t1 energy grid success
+2025-05-25 20:14:53,720 - prepare_energy_grid.log - INFO - 28_1478362_t1 energy grid changed to np16
+2025-05-25 20:14:57,248 - prepare_energy_grid.log - INFO - 102_1970869_85dmso2c6h6 energy grid success
+2025-05-25 20:14:57,249 - prepare_energy_grid.log - INFO - 102_1970869_85dmso2c6h6 energy grid changed to np16
+2025-05-25 20:14:59,674 - prepare_energy_grid.log - INFO - 175_2062608_25 energy grid success
+2025-05-25 20:14:59,676 - prepare_energy_grid.log - INFO - 175_2062608_25 energy grid changed to np16
+2025-05-25 20:15:02,389 - prepare_energy_grid.log - INFO - 3_822582_25dmf3meohsof-1 energy grid success
+2025-05-25 20:15:02,391 - prepare_energy_grid.log - INFO - 3_822582_25dmf3meohsof-1 energy grid changed to np16
+2025-05-25 20:15:05,403 - prepare_energy_grid.log - INFO - 157_2078751_hof-16-ethanol energy grid success
+2025-05-25 20:15:05,405 - prepare_energy_grid.log - INFO - 157_2078751_hof-16-ethanol energy grid changed to np16
+2025-05-25 20:15:08,659 - prepare_energy_grid.log - INFO - 106_1904340_pfc-12 energy grid success
+2025-05-25 20:15:08,661 - prepare_energy_grid.log - INFO - 106_1904340_pfc-12 energy grid changed to np16
+2025-05-25 20:15:10,668 - prepare_energy_grid.log - INFO - 12_trispyrazole1 energy grid success
+2025-05-25 20:15:10,670 - prepare_energy_grid.log - INFO - 12_trispyrazole1 energy grid changed to np16
+2025-05-25 20:15:14,494 - prepare_energy_grid.log - INFO - 38_1578416-tpme-1 energy grid success
+2025-05-25 20:15:14,497 - prepare_energy_grid.log - INFO - 38_1578416-tpme-1 energy grid changed to np16
+2025-05-25 20:15:18,865 - prepare_energy_grid.log - INFO - 194-aniline_fju-360 energy grid success
+2025-05-25 20:15:18,867 - prepare_energy_grid.log - INFO - 194-aniline_fju-360 energy grid changed to np16
+2025-05-25 20:15:20,836 - prepare_energy_grid.log - INFO - 58_1841046_-tma01hac energy grid success
+2025-05-25 20:15:20,838 - prepare_energy_grid.log - INFO - 58_1841046_-tma01hac energy grid changed to np16
+2025-05-25 20:15:22,178 - prepare_energy_grid.log - INFO - 108_1992596_zrt-2- energy grid success
+2025-05-25 20:15:22,181 - prepare_energy_grid.log - INFO - 108_1992596_zrt-2- energy grid changed to np16
+2025-05-25 20:15:23,596 - prepare_energy_grid.log - INFO - 70_1898278_hof1⊃thf energy grid success
+2025-05-25 20:15:23,599 - prepare_energy_grid.log - INFO - 70_1898278_hof1⊃thf energy grid changed to np16
+2025-05-25 20:15:26,304 - prepare_energy_grid.log - INFO - 275-cage-6-cooh_nmp_solvate energy grid success
+2025-05-25 20:15:26,306 - prepare_energy_grid.log - INFO - 275-cage-6-cooh_nmp_solvate energy grid changed to np16
+2025-05-25 20:15:28,308 - prepare_energy_grid.log - INFO - 1_2 energy grid success
+2025-05-25 20:15:28,310 - prepare_energy_grid.log - INFO - 1_2 energy grid changed to np16
+2025-05-25 20:15:30,890 - prepare_energy_grid.log - INFO - 13-2a_ref_h energy grid success
+2025-05-25 20:15:30,893 - prepare_energy_grid.log - INFO - 13-2a_ref_h energy grid changed to np16
+2025-05-25 20:15:34,263 - prepare_energy_grid.log - INFO - 2_g4fbs0514 energy grid success
+2025-05-25 20:15:34,266 - prepare_energy_grid.log - INFO - 2_g4fbs0514 energy grid changed to np16
+2025-05-25 20:15:37,127 - prepare_energy_grid.log - INFO - 182_ihof-4 energy grid success
+2025-05-25 20:15:37,128 - prepare_energy_grid.log - INFO - 182_ihof-4 energy grid changed to np16
+2025-05-25 20:15:40,827 - prepare_energy_grid.log - INFO - 1_8 energy grid success
+2025-05-25 20:15:40,830 - prepare_energy_grid.log - INFO - 1_8 energy grid changed to np16
+2025-05-25 20:15:43,018 - prepare_energy_grid.log - INFO - 293-1biphenyldicarboxylate energy grid success
+2025-05-25 20:15:43,019 - prepare_energy_grid.log - INFO - 293-1biphenyldicarboxylate energy grid changed to np16
+2025-05-25 20:15:45,654 - prepare_energy_grid.log - INFO - 13-2b_ref_br energy grid success
+2025-05-25 20:15:45,656 - prepare_energy_grid.log - INFO - 13-2b_ref_br energy grid changed to np16
+2025-05-25 20:15:48,496 - prepare_energy_grid.log - INFO - 224tam-bdca-hof energy grid success
+2025-05-25 20:15:48,498 - prepare_energy_grid.log - INFO - 224tam-bdca-hof energy grid changed to np16
+2025-05-25 20:15:52,738 - prepare_energy_grid.log - INFO - 73_1908801_monomer2 energy grid success
+2025-05-25 20:15:52,740 - prepare_energy_grid.log - INFO - 73_1908801_monomer2 energy grid changed to np16
+2025-05-25 20:15:57,414 - prepare_energy_grid.log - INFO - 75_1889096_26pf6 energy grid success
+2025-05-25 20:15:57,417 - prepare_energy_grid.log - INFO - 75_1889096_26pf6 energy grid changed to np16
+2025-05-25 20:15:59,826 - prepare_energy_grid.log - INFO - 2_g4fbs20 energy grid success
+2025-05-25 20:15:59,828 - prepare_energy_grid.log - INFO - 2_g4fbs20 energy grid changed to np16
+2025-05-25 20:16:03,478 - prepare_energy_grid.log - INFO - 2_g2mbs059 energy grid success
+2025-05-25 20:16:03,480 - prepare_energy_grid.log - INFO - 2_g2mbs059 energy grid changed to np16
+2025-05-25 20:16:06,961 - prepare_energy_grid.log - INFO - 84_1867937_5micro energy grid success
+2025-05-25 20:16:06,963 - prepare_energy_grid.log - INFO - 84_1867937_5micro energy grid changed to np16
+2025-05-25 20:16:14,556 - prepare_energy_grid.log - INFO - 33_1052040_hof-5 energy grid success
+2025-05-25 20:16:14,559 - prepare_energy_grid.log - INFO - 33_1052040_hof-5 energy grid changed to np16
+2025-05-25 20:16:16,622 - prepare_energy_grid.log - INFO - 2282231664 energy grid success
+2025-05-25 20:16:16,624 - prepare_energy_grid.log - INFO - 2282231664 energy grid changed to np16
+2025-05-25 20:16:19,772 - prepare_energy_grid.log - INFO - 182_ihof-2 energy grid success
+2025-05-25 20:16:19,774 - prepare_energy_grid.log - INFO - 182_ihof-2 energy grid changed to np16
+2025-05-25 20:17:38,915 - prepare_energy_grid.log - INFO - 91_1941697_unam-1 energy grid success
+2025-05-25 20:17:38,918 - prepare_energy_grid.log - INFO - 91_1941697_unam-1 energy grid changed to np16
+2025-05-25 20:17:42,038 - prepare_energy_grid.log - INFO - 43_1583116_cpos-4 energy grid success
+2025-05-25 20:17:42,040 - prepare_energy_grid.log - INFO - 43_1583116_cpos-4 energy grid changed to np16
+2025-05-25 20:17:46,145 - prepare_energy_grid.log - INFO - 55_1837143_1-8min energy grid success
+2025-05-25 20:17:46,147 - prepare_energy_grid.log - INFO - 55_1837143_1-8min energy grid changed to np16
+2025-05-25 20:17:49,062 - prepare_energy_grid.log - INFO - 54_1857529_pyopen⊃isoproh energy grid success
+2025-05-25 20:17:49,064 - prepare_energy_grid.log - INFO - 54_1857529_pyopen⊃isoproh energy grid changed to np16
+2025-05-25 20:17:51,301 - prepare_energy_grid.log - INFO - 132_1973460_hbc-1 energy grid success
+2025-05-25 20:17:51,302 - prepare_energy_grid.log - INFO - 132_1973460_hbc-1 energy grid changed to np16
+2025-05-25 20:17:53,463 - prepare_energy_grid.log - INFO - 2_g4bbs2 energy grid success
+2025-05-25 20:17:53,465 - prepare_energy_grid.log - INFO - 2_g4bbs2 energy grid changed to np16
+2025-05-25 20:17:55,394 - prepare_energy_grid.log - INFO - 293-areverse energy grid success
+2025-05-25 20:17:55,396 - prepare_energy_grid.log - INFO - 293-areverse energy grid changed to np16
+2025-05-25 20:17:58,128 - prepare_energy_grid.log - INFO - 13-2d2_dmf energy grid success
+2025-05-25 20:17:58,131 - prepare_energy_grid.log - INFO - 13-2d2_dmf energy grid changed to np16
+2025-05-25 20:18:00,599 - prepare_energy_grid.log - INFO - 37_1541093-ix energy grid success
+2025-05-25 20:18:00,601 - prepare_energy_grid.log - INFO - 37_1541093-ix energy grid changed to np16
+2025-05-25 20:18:03,374 - prepare_energy_grid.log - INFO - 2_g4ibs22 energy grid success
+2025-05-25 20:18:03,378 - prepare_energy_grid.log - INFO - 2_g4ibs22 energy grid changed to np16
+2025-05-25 20:18:05,517 - prepare_energy_grid.log - INFO - 135_2035078_pfc-42 energy grid success
+2025-05-25 20:18:05,520 - prepare_energy_grid.log - INFO - 135_2035078_pfc-42 energy grid changed to np16
+2025-05-25 20:18:11,021 - prepare_energy_grid.log - INFO - 4-hof-1 energy grid success
+2025-05-25 20:18:11,022 - prepare_energy_grid.log - INFO - 4-hof-1 energy grid changed to np16
+2025-05-25 20:18:13,335 - prepare_energy_grid.log - INFO - 89_1916385_2 energy grid success
+2025-05-25 20:18:13,337 - prepare_energy_grid.log - INFO - 89_1916385_2 energy grid changed to np16
+2025-05-25 20:18:15,436 - prepare_energy_grid.log - INFO - 254-exp_485 energy grid success
+2025-05-25 20:18:15,438 - prepare_energy_grid.log - INFO - 254-exp_485 energy grid changed to np16
+2025-05-25 20:18:17,529 - prepare_energy_grid.log - INFO - 36_1566035_l1-h6 energy grid success
+2025-05-25 20:18:17,531 - prepare_energy_grid.log - INFO - 36_1566035_l1-h6 energy grid changed to np16
+2025-05-25 20:18:19,838 - prepare_energy_grid.log - INFO - 205l-h energy grid success
+2025-05-25 20:18:19,840 - prepare_energy_grid.log - INFO - 205l-h energy grid changed to np16
+2025-05-25 20:18:21,357 - prepare_energy_grid.log - INFO - 254-ck1022e energy grid success
+2025-05-25 20:18:21,359 - prepare_energy_grid.log - INFO - 254-ck1022e energy grid changed to np16
+2025-05-25 20:18:33,419 - prepare_energy_grid.log - INFO - 6_918144_2as_tpma_tmbd-pos1b energy grid success
+2025-05-25 20:18:33,422 - prepare_energy_grid.log - INFO - 6_918144_2as_tpma_tmbd-pos1b energy grid changed to np16
+2025-05-25 20:18:35,700 - prepare_energy_grid.log - INFO - 80_1913385_hof-12 energy grid success
+2025-05-25 20:18:35,703 - prepare_energy_grid.log - INFO - 80_1913385_hof-12 energy grid changed to np16
+2025-05-25 20:18:37,783 - prepare_energy_grid.log - INFO - 37_1541097-xiii energy grid success
+2025-05-25 20:18:37,785 - prepare_energy_grid.log - INFO - 37_1541097-xiii energy grid changed to np16
+2025-05-25 20:18:41,376 - prepare_energy_grid.log - INFO - 2_g4ibs energy grid success
+2025-05-25 20:18:41,378 - prepare_energy_grid.log - INFO - 2_g4ibs energy grid changed to np16
+2025-05-25 20:18:44,646 - prepare_energy_grid.log - INFO - 307-mthof-1 energy grid success
+2025-05-25 20:18:44,648 - prepare_energy_grid.log - INFO - 307-mthof-1 energy grid changed to np16
+2025-05-25 20:18:50,088 - prepare_energy_grid.log - INFO - 264-cp-py-2-dmani energy grid success
+2025-05-25 20:18:50,090 - prepare_energy_grid.log - INFO - 264-cp-py-2-dmani energy grid changed to np16
+2025-05-25 20:18:52,356 - prepare_energy_grid.log - INFO - 168_2087506_hof-30a-c3h4 energy grid success
+2025-05-25 20:18:52,358 - prepare_energy_grid.log - INFO - 168_2087506_hof-30a-c3h4 energy grid changed to np16
+2025-05-25 20:18:55,075 - prepare_energy_grid.log - INFO - 297_sof-9 energy grid success
+2025-05-25 20:18:55,078 - prepare_energy_grid.log - INFO - 297_sof-9 energy grid changed to np16
+2025-05-25 20:18:57,217 - prepare_energy_grid.log - INFO - 78_1576306_2 energy grid success
+2025-05-25 20:18:57,220 - prepare_energy_grid.log - INFO - 78_1576306_2 energy grid changed to np16
+2025-05-25 20:18:59,606 - prepare_energy_grid.log - INFO - 175_2062609_26 energy grid success
+2025-05-25 20:18:59,608 - prepare_energy_grid.log - INFO - 175_2062609_26 energy grid changed to np16
+2025-05-25 20:19:03,903 - prepare_energy_grid.log - INFO - 84_1867928_2 energy grid success
+2025-05-25 20:19:03,906 - prepare_energy_grid.log - INFO - 84_1867928_2 energy grid changed to np16
+2025-05-25 20:19:07,390 - prepare_energy_grid.log - INFO - 19_1457116_ex-1 energy grid success
+2025-05-25 20:19:07,392 - prepare_energy_grid.log - INFO - 19_1457116_ex-1 energy grid changed to np16
+2025-05-25 20:19:10,888 - prepare_energy_grid.log - INFO - 1_14 energy grid success
+2025-05-25 20:19:10,889 - prepare_energy_grid.log - INFO - 1_14 energy grid changed to np16
+2025-05-25 20:19:14,207 - prepare_energy_grid.log - INFO - 2_g2fbs energy grid success
+2025-05-25 20:19:14,208 - prepare_energy_grid.log - INFO - 2_g2fbs energy grid changed to np16
+2025-05-25 20:19:16,037 - prepare_energy_grid.log - INFO - 171_2105279_[co2pca4bimb2] energy grid success
+2025-05-25 20:19:16,038 - prepare_energy_grid.log - INFO - 171_2105279_[co2pca4bimb2] energy grid changed to np16
+2025-05-25 20:19:19,486 - prepare_energy_grid.log - INFO - 47_1819846_2ace energy grid success
+2025-05-25 20:19:19,488 - prepare_energy_grid.log - INFO - 47_1819846_2ace energy grid changed to np16
+2025-05-25 20:19:23,156 - prepare_energy_grid.log - INFO - 194-fju-360 energy grid success
+2025-05-25 20:19:23,158 - prepare_energy_grid.log - INFO - 194-fju-360 energy grid changed to np16
+2025-05-25 20:19:25,362 - prepare_energy_grid.log - INFO - 275-cagehof-2 energy grid success
+2025-05-25 20:19:25,364 - prepare_energy_grid.log - INFO - 275-cagehof-2 energy grid changed to np16
+2025-05-25 20:19:28,260 - prepare_energy_grid.log - INFO - 8_988067_hof-8 energy grid success
+2025-05-25 20:19:28,262 - prepare_energy_grid.log - INFO - 8_988067_hof-8 energy grid changed to np16
+2025-05-25 20:19:31,578 - prepare_energy_grid.log - INFO - 150-hof-fju-5 energy grid success
+2025-05-25 20:19:31,581 - prepare_energy_grid.log - INFO - 150-hof-fju-5 energy grid changed to np16
+2025-05-25 20:19:33,626 - prepare_energy_grid.log - INFO - 107_1850860_2 energy grid success
+2025-05-25 20:19:33,628 - prepare_energy_grid.log - INFO - 107_1850860_2 energy grid changed to np16
+2025-05-25 20:19:35,088 - prepare_energy_grid.log - INFO - 29_1529718_hof-9 energy grid success
+2025-05-25 20:19:35,089 - prepare_energy_grid.log - INFO - 29_1529718_hof-9 energy grid changed to np16
+2025-05-25 20:19:39,043 - prepare_energy_grid.log - INFO - 55_1837140_1’-10min energy grid success
+2025-05-25 20:19:39,045 - prepare_energy_grid.log - INFO - 55_1837140_1’-10min energy grid changed to np16
+2025-05-25 20:19:42,056 - prepare_energy_grid.log - INFO - 49_1815224_hof2a energy grid success
+2025-05-25 20:19:42,058 - prepare_energy_grid.log - INFO - 49_1815224_hof2a energy grid changed to np16
+2025-05-25 20:19:44,759 - prepare_energy_grid.log - INFO - 45_1555041_1a energy grid success
+2025-05-25 20:19:44,762 - prepare_energy_grid.log - INFO - 45_1555041_1a energy grid changed to np16
+2025-05-25 20:19:47,131 - prepare_energy_grid.log - INFO - 37_1541086-ii energy grid success
+2025-05-25 20:19:47,132 - prepare_energy_grid.log - INFO - 37_1541086-ii energy grid changed to np16
+2025-05-25 20:19:53,191 - prepare_energy_grid.log - INFO - 2031dso42]tba4 energy grid success
+2025-05-25 20:19:53,193 - prepare_energy_grid.log - INFO - 2031dso42]tba4 energy grid changed to np16
+2025-05-25 20:20:00,825 - prepare_energy_grid.log - INFO - 5-1 energy grid success
+2025-05-25 20:20:00,827 - prepare_energy_grid.log - INFO - 5-1 energy grid changed to np16
+2025-05-25 20:20:10,090 - prepare_energy_grid.log - INFO - 100_1974318_3 energy grid success
+2025-05-25 20:20:10,093 - prepare_energy_grid.log - INFO - 100_1974318_3 energy grid changed to np16
+2025-05-25 20:20:12,541 - prepare_energy_grid.log - INFO - 218-hof-tcpb-333 energy grid success
+2025-05-25 20:20:12,543 - prepare_energy_grid.log - INFO - 218-hof-tcpb-333 energy grid changed to np16
+2025-05-25 20:20:17,688 - prepare_energy_grid.log - INFO - 51_1819783_tcf-3 energy grid success
+2025-05-25 20:20:17,690 - prepare_energy_grid.log - INFO - 51_1819783_tcf-3 energy grid changed to np16
+2025-05-25 20:20:19,503 - prepare_energy_grid.log - INFO - 187_3d-thf energy grid success
+2025-05-25 20:20:19,506 - prepare_energy_grid.log - INFO - 187_3d-thf energy grid changed to np16
+2025-05-25 20:20:21,926 - prepare_energy_grid.log - INFO - 102_1970867_53dmso energy grid success
+2025-05-25 20:20:21,928 - prepare_energy_grid.log - INFO - 102_1970867_53dmso energy grid changed to np16
+2025-05-25 20:21:09,053 - prepare_energy_grid.log - INFO - 151-thiahat-1 energy grid success
+2025-05-25 20:21:09,055 - prepare_energy_grid.log - INFO - 151-thiahat-1 energy grid changed to np16
+2025-05-25 20:21:12,292 - prepare_energy_grid.log - INFO - 84_1867931_5 energy grid success
+2025-05-25 20:21:12,293 - prepare_energy_grid.log - INFO - 84_1867931_5 energy grid changed to np16
+2025-05-25 20:21:16,802 - prepare_energy_grid.log - INFO - 293-aanth energy grid success
+2025-05-25 20:21:16,803 - prepare_energy_grid.log - INFO - 293-aanth energy grid changed to np16
+2025-05-25 20:21:18,961 - prepare_energy_grid.log - INFO - 159_2078212_cp-pp-1dcb energy grid success
+2025-05-25 20:21:18,964 - prepare_energy_grid.log - INFO - 159_2078212_cp-pp-1dcb energy grid changed to np16
+2025-05-25 20:21:21,679 - prepare_energy_grid.log - INFO - 261-mc30-2173797 energy grid success
+2025-05-25 20:21:21,680 - prepare_energy_grid.log - INFO - 261-mc30-2173797 energy grid changed to np16
+2025-05-25 20:21:26,407 - prepare_energy_grid.log - INFO - 73_1908807_monomer1 energy grid success
+2025-05-25 20:21:26,408 - prepare_energy_grid.log - INFO - 73_1908807_monomer1 energy grid changed to np16
+2025-05-25 20:21:29,801 - prepare_energy_grid.log - INFO - 75_1889094_16cl energy grid success
+2025-05-25 20:21:29,803 - prepare_energy_grid.log - INFO - 75_1889094_16cl energy grid changed to np16
+2025-05-25 20:21:33,894 - prepare_energy_grid.log - INFO - 18_1445430_2-h2o energy grid success
+2025-05-25 20:21:33,896 - prepare_energy_grid.log - INFO - 18_1445430_2-h2o energy grid changed to np16
+2025-05-25 20:21:37,864 - prepare_energy_grid.log - INFO - 2_g234tmbs energy grid success
+2025-05-25 20:21:37,866 - prepare_energy_grid.log - INFO - 2_g234tmbs energy grid changed to np16
+2025-05-25 20:21:40,706 - prepare_energy_grid.log - INFO - 196-2 energy grid success
+2025-05-25 20:21:40,708 - prepare_energy_grid.log - INFO - 196-2 energy grid changed to np16
+2025-05-25 20:21:46,751 - prepare_energy_grid.log - INFO - 84_1867933_7a energy grid success
+2025-05-25 20:21:46,753 - prepare_energy_grid.log - INFO - 84_1867933_7a energy grid changed to np16
+2025-05-25 20:21:49,332 - prepare_energy_grid.log - INFO - 294-3_5 energy grid success
+2025-05-25 20:21:49,334 - prepare_energy_grid.log - INFO - 294-3_5 energy grid changed to np16
+2025-05-25 20:21:52,270 - prepare_energy_grid.log - INFO - 28_1520227_t2c3h6o energy grid success
+2025-05-25 20:21:52,272 - prepare_energy_grid.log - INFO - 28_1520227_t2c3h6o energy grid changed to np16
+2025-05-25 20:21:55,878 - prepare_energy_grid.log - INFO - 73_1908803_p6 energy grid success
+2025-05-25 20:21:55,880 - prepare_energy_grid.log - INFO - 73_1908803_p6 energy grid changed to np16
+2025-05-25 20:21:59,887 - prepare_energy_grid.log - INFO - 64_1823163_1-co energy grid success
+2025-05-25 20:21:59,890 - prepare_energy_grid.log - INFO - 64_1823163_1-co energy grid changed to np16
+2025-05-25 20:22:02,036 - prepare_energy_grid.log - INFO - 2252212797hof-fju-36 energy grid success
+2025-05-25 20:22:02,038 - prepare_energy_grid.log - INFO - 2252212797hof-fju-36 energy grid changed to np16
+2025-05-25 20:22:07,599 - prepare_energy_grid.log - INFO - 50_1841012_cbphat-1tcb energy grid success
+2025-05-25 20:22:07,600 - prepare_energy_grid.log - INFO - 50_1841012_cbphat-1tcb energy grid changed to np16
+2025-05-25 20:22:10,507 - prepare_energy_grid.log - INFO - 48_1846106_20 energy grid success
+2025-05-25 20:22:10,509 - prepare_energy_grid.log - INFO - 48_1846106_20 energy grid changed to np16
+2025-05-25 20:22:14,614 - prepare_energy_grid.log - INFO - 13-2d1_dma_c2 energy grid success
+2025-05-25 20:22:14,616 - prepare_energy_grid.log - INFO - 13-2d1_dma_c2 energy grid changed to np16
+2025-05-25 20:22:15,897 - prepare_energy_grid.log - INFO - 22_1044788_hof-6 energy grid success
+2025-05-25 20:22:15,899 - prepare_energy_grid.log - INFO - 22_1044788_hof-6 energy grid changed to np16
+2025-05-25 20:22:18,811 - prepare_energy_grid.log - INFO - 13-1d1_dmf energy grid success
+2025-05-25 20:22:18,813 - prepare_energy_grid.log - INFO - 13-1d1_dmf energy grid changed to np16
+2025-05-25 20:22:21,676 - prepare_energy_grid.log - INFO - 125_1892552_hma+hpda− energy grid success
+2025-05-25 20:22:21,678 - prepare_energy_grid.log - INFO - 125_1892552_hma+hpda− energy grid changed to np16
+2025-05-25 20:22:23,946 - prepare_energy_grid.log - INFO - 51_1819736_tcf1_open energy grid success
+2025-05-25 20:22:23,948 - prepare_energy_grid.log - INFO - 51_1819736_tcf1_open energy grid changed to np16
+2025-05-25 20:22:31,883 - prepare_energy_grid.log - INFO - 5-9 energy grid success
+2025-05-25 20:22:31,885 - prepare_energy_grid.log - INFO - 5-9 energy grid changed to np16
+2025-05-25 20:22:34,544 - prepare_energy_grid.log - INFO - 95_1865241_pethof-1 energy grid success
+2025-05-25 20:22:34,546 - prepare_energy_grid.log - INFO - 95_1865241_pethof-1 energy grid changed to np16
+2025-05-25 20:22:36,266 - prepare_energy_grid.log - INFO - 25_1499634_x-ttf energy grid success
+2025-05-25 20:22:36,267 - prepare_energy_grid.log - INFO - 25_1499634_x-ttf energy grid changed to np16
+2025-05-25 20:22:39,691 - prepare_energy_grid.log - INFO - 1_6 energy grid success
+2025-05-25 20:22:39,692 - prepare_energy_grid.log - INFO - 1_6 energy grid changed to np16
+2025-05-25 20:22:43,621 - prepare_energy_grid.log - INFO - 55_1837138_1’-0ming energy grid success
+2025-05-25 20:22:43,624 - prepare_energy_grid.log - INFO - 55_1837138_1’-0ming energy grid changed to np16
+2025-05-25 20:22:45,718 - prepare_energy_grid.log - INFO - 57_1851025_tcpp-13-dpp energy grid success
+2025-05-25 20:22:45,720 - prepare_energy_grid.log - INFO - 57_1851025_tcpp-13-dpp energy grid changed to np16
+2025-05-25 20:22:52,032 - prepare_energy_grid.log - INFO - 184_cfa-20-tp2 energy grid success
+2025-05-25 20:22:52,035 - prepare_energy_grid.log - INFO - 184_cfa-20-tp2 energy grid changed to np16
+2025-05-25 20:22:53,461 - prepare_energy_grid.log - INFO - 314-4 energy grid success
+2025-05-25 20:22:53,463 - prepare_energy_grid.log - INFO - 314-4 energy grid changed to np16
+2025-05-25 20:22:56,779 - prepare_energy_grid.log - INFO - 47_1819847_2mecn energy grid success
+2025-05-25 20:22:56,781 - prepare_energy_grid.log - INFO - 47_1819847_2mecn energy grid changed to np16
+2025-05-25 20:22:59,268 - prepare_energy_grid.log - INFO - 34_1563351_cpsm-1 energy grid success
+2025-05-25 20:22:59,270 - prepare_energy_grid.log - INFO - 34_1563351_cpsm-1 energy grid changed to np16
+2025-05-25 20:23:02,003 - prepare_energy_grid.log - INFO - 49_1815222_hof1a energy grid success
+2025-05-25 20:23:02,005 - prepare_energy_grid.log - INFO - 49_1815222_hof1a energy grid changed to np16
+2025-05-25 20:23:04,840 - prepare_energy_grid.log - INFO - 54_1857530_pyopen⊃mecn energy grid success
+2025-05-25 20:23:04,843 - prepare_energy_grid.log - INFO - 54_1857530_pyopen⊃mecn energy grid changed to np16
+2025-05-25 20:23:06,425 - prepare_energy_grid.log - INFO - 258-hof-lifm-11 energy grid success
+2025-05-25 20:23:06,428 - prepare_energy_grid.log - INFO - 258-hof-lifm-11 energy grid changed to np16
+2025-05-25 20:23:08,375 - prepare_energy_grid.log - INFO - 40_1510309_hoifs-2 energy grid success
+2025-05-25 20:23:08,377 - prepare_energy_grid.log - INFO - 40_1510309_hoifs-2 energy grid changed to np16
+2025-05-25 20:23:09,715 - prepare_energy_grid.log - INFO - 25_1499635_x-pyq energy grid success
+2025-05-25 20:23:09,717 - prepare_energy_grid.log - INFO - 25_1499635_x-pyq energy grid changed to np16
+2025-05-25 20:23:13,156 - prepare_energy_grid.log - INFO - 2_g3mbs5 energy grid success
+2025-05-25 20:23:13,158 - prepare_energy_grid.log - INFO - 2_g3mbs5 energy grid changed to np16
+2025-05-25 20:23:15,309 - prepare_energy_grid.log - INFO - 20218860151 energy grid success
+2025-05-25 20:23:15,311 - prepare_energy_grid.log - INFO - 20218860151 energy grid changed to np16
+2025-05-25 20:23:19,093 - prepare_energy_grid.log - INFO - 294-3_4 energy grid success
+2025-05-25 20:23:19,095 - prepare_energy_grid.log - INFO - 294-3_4 energy grid changed to np16
+2025-05-25 20:23:23,977 - prepare_energy_grid.log - INFO - 184_cfa-20-tp-dmso energy grid success
+2025-05-25 20:23:23,979 - prepare_energy_grid.log - INFO - 184_cfa-20-tp-dmso energy grid changed to np16
+2025-05-25 20:23:27,867 - prepare_energy_grid.log - INFO - 254-auto energy grid success
+2025-05-25 20:23:27,868 - prepare_energy_grid.log - INFO - 254-auto energy grid changed to np16
+2025-05-25 20:23:29,377 - prepare_energy_grid.log - INFO - 244-hof-tta energy grid success
+2025-05-25 20:23:29,379 - prepare_energy_grid.log - INFO - 244-hof-tta energy grid changed to np16
+2025-05-25 20:23:31,612 - prepare_energy_grid.log - INFO - 30_1531826_12c4h8o2 energy grid success
+2025-05-25 20:23:31,614 - prepare_energy_grid.log - INFO - 30_1531826_12c4h8o2 energy grid changed to np16
+2025-05-25 20:23:35,643 - prepare_energy_grid.log - INFO - 2_g245tmbs energy grid success
+2025-05-25 20:23:35,644 - prepare_energy_grid.log - INFO - 2_g245tmbs energy grid changed to np16
+2025-05-25 20:23:37,158 - prepare_energy_grid.log - INFO - 169_2083181_re6-hof-1as energy grid success
+2025-05-25 20:23:37,159 - prepare_energy_grid.log - INFO - 169_2083181_re6-hof-1as energy grid changed to np16
+2025-05-25 20:23:39,668 - prepare_energy_grid.log - INFO - 264-cp-py-1-dmani energy grid success
+2025-05-25 20:23:39,670 - prepare_energy_grid.log - INFO - 264-cp-py-1-dmani energy grid changed to np16
+2025-05-25 20:23:44,319 - prepare_energy_grid.log - INFO - 187_3d-selenophene energy grid success
+2025-05-25 20:23:44,321 - prepare_energy_grid.log - INFO - 187_3d-selenophene energy grid changed to np16
+2025-05-25 20:23:46,971 - prepare_energy_grid.log - INFO - 37_1541087-iii energy grid success
+2025-05-25 20:23:46,973 - prepare_energy_grid.log - INFO - 37_1541087-iii energy grid changed to np16
+2025-05-25 20:24:04,248 - prepare_energy_grid.log - INFO - 5-11 energy grid success
+2025-05-25 20:24:04,250 - prepare_energy_grid.log - INFO - 5-11 energy grid changed to np16
+2025-05-25 20:24:07,851 - prepare_energy_grid.log - INFO - 113_1984954_hof-20aniline energy grid success
+2025-05-25 20:24:07,852 - prepare_energy_grid.log - INFO - 113_1984954_hof-20aniline energy grid changed to np16
+2025-05-25 20:24:11,002 - prepare_energy_grid.log - INFO - 142_2031633_8pcom-methanol energy grid success
+2025-05-25 20:24:11,004 - prepare_energy_grid.log - INFO - 142_2031633_8pcom-methanol energy grid changed to np16
+2025-05-25 20:24:14,693 - prepare_energy_grid.log - INFO - 28_1478356_t2nmp275 energy grid success
+2025-05-25 20:24:14,695 - prepare_energy_grid.log - INFO - 28_1478356_t2nmp275 energy grid changed to np16
+2025-05-25 20:24:16,775 - prepare_energy_grid.log - INFO - 277-hdsd-1 energy grid success
+2025-05-25 20:24:16,777 - prepare_energy_grid.log - INFO - 277-hdsd-1 energy grid changed to np16
+2025-05-25 20:24:20,878 - prepare_energy_grid.log - INFO - 55_1837144_1-15min energy grid success
+2025-05-25 20:24:20,879 - prepare_energy_grid.log - INFO - 55_1837144_1-15min energy grid changed to np16
+2025-05-25 20:24:23,188 - prepare_energy_grid.log - INFO - 23_1424089_1_2d1 energy grid success
+2025-05-25 20:24:23,191 - prepare_energy_grid.log - INFO - 23_1424089_1_2d1 energy grid changed to np16
+2025-05-25 20:24:26,435 - prepare_energy_grid.log - INFO - 2222151260 energy grid success
+2025-05-25 20:24:26,437 - prepare_energy_grid.log - INFO - 2222151260 energy grid changed to np16
+2025-05-25 20:24:28,988 - prepare_energy_grid.log - INFO - 44_1532905_hof-21 energy grid success
+2025-05-25 20:24:28,991 - prepare_energy_grid.log - INFO - 44_1532905_hof-21 energy grid changed to np16
+2025-05-25 20:24:34,687 - prepare_energy_grid.log - INFO - 49_1815226_hof3a energy grid success
+2025-05-25 20:24:34,689 - prepare_energy_grid.log - INFO - 49_1815226_hof3a energy grid changed to np16
+2025-05-25 20:24:37,204 - prepare_energy_grid.log - INFO - 172-tpe-aa-3 energy grid success
+2025-05-25 20:24:37,205 - prepare_energy_grid.log - INFO - 172-tpe-aa-3 energy grid changed to np16
+2025-05-25 20:24:39,591 - prepare_energy_grid.log - INFO - 38_1578417_tpf-1 energy grid success
+2025-05-25 20:24:39,593 - prepare_energy_grid.log - INFO - 38_1578417_tpf-1 energy grid changed to np16
+2025-05-25 20:24:42,578 - prepare_energy_grid.log - INFO - 2172216825mep-hof energy grid success
+2025-05-25 20:24:42,580 - prepare_energy_grid.log - INFO - 2172216825mep-hof energy grid changed to np16
+2025-05-25 20:24:45,380 - prepare_energy_grid.log - INFO - 205l-ch3 energy grid success
+2025-05-25 20:24:45,382 - prepare_energy_grid.log - INFO - 205l-ch3 energy grid changed to np16
+2025-05-25 20:24:50,701 - prepare_energy_grid.log - INFO - 84_1905538_7b energy grid success
+2025-05-25 20:24:50,703 - prepare_energy_grid.log - INFO - 84_1905538_7b energy grid changed to np16
+2025-05-25 20:24:53,462 - prepare_energy_grid.log - INFO - 171_2105278_[copca2bmimb] energy grid success
+2025-05-25 20:24:53,465 - prepare_energy_grid.log - INFO - 171_2105278_[copca2bmimb] energy grid changed to np16
+2025-05-25 20:24:57,038 - prepare_energy_grid.log - INFO - 281-hof-btb-nh2 energy grid success
+2025-05-25 20:24:57,040 - prepare_energy_grid.log - INFO - 281-hof-btb-nh2 energy grid changed to np16
+2025-05-25 20:25:00,910 - prepare_energy_grid.log - INFO - 272-hof-215 energy grid success
+2025-05-25 20:25:00,912 - prepare_energy_grid.log - INFO - 272-hof-215 energy grid changed to np16
+2025-05-25 20:25:07,698 - prepare_energy_grid.log - INFO - 2_g4ipbs energy grid success
+2025-05-25 20:25:07,699 - prepare_energy_grid.log - INFO - 2_g4ipbs energy grid changed to np16
+2025-05-25 20:25:10,665 - prepare_energy_grid.log - INFO - 1_11 energy grid success
+2025-05-25 20:25:10,667 - prepare_energy_grid.log - INFO - 1_11 energy grid changed to np16
+2025-05-25 20:25:14,473 - prepare_energy_grid.log - INFO - 314-4-cl energy grid success
+2025-05-25 20:25:14,475 - prepare_energy_grid.log - INFO - 314-4-cl energy grid changed to np16
+2025-05-25 20:25:22,747 - prepare_energy_grid.log - INFO - 207-hof-pytta energy grid success
+2025-05-25 20:25:22,749 - prepare_energy_grid.log - INFO - 207-hof-pytta energy grid changed to np16
+2025-05-25 20:25:25,044 - prepare_energy_grid.log - INFO - 2262206854 energy grid success
+2025-05-25 20:25:25,046 - prepare_energy_grid.log - INFO - 2262206854 energy grid changed to np16
+2025-05-25 20:25:26,548 - prepare_energy_grid.log - INFO - 16_1057513_hof-5 energy grid success
+2025-05-25 20:25:26,550 - prepare_energy_grid.log - INFO - 16_1057513_hof-5 energy grid changed to np16
+2025-05-25 20:25:29,359 - prepare_energy_grid.log - INFO - 3_822585_2dmf4meohs2b energy grid success
+2025-05-25 20:25:29,361 - prepare_energy_grid.log - INFO - 3_822585_2dmf4meohs2b energy grid changed to np16
+2025-05-25 20:25:32,900 - prepare_energy_grid.log - INFO - 118_1991980_pentamof-2 energy grid success
+2025-05-25 20:25:32,902 - prepare_energy_grid.log - INFO - 118_1991980_pentamof-2 energy grid changed to np16
+2025-05-25 20:25:35,078 - prepare_energy_grid.log - INFO - 136_2053362_imd-tph-280k energy grid success
+2025-05-25 20:25:35,080 - prepare_energy_grid.log - INFO - 136_2053362_imd-tph-280k energy grid changed to np16
+2025-05-25 20:25:37,794 - prepare_energy_grid.log - INFO - 5-3 energy grid success
+2025-05-25 20:25:37,796 - prepare_energy_grid.log - INFO - 5-3 energy grid changed to np16
+2025-05-25 20:25:42,066 - prepare_energy_grid.log - INFO - 2_g4tbbs02527 energy grid success
+2025-05-25 20:25:42,067 - prepare_energy_grid.log - INFO - 2_g4tbbs02527 energy grid changed to np16
+2025-05-25 20:25:43,634 - prepare_energy_grid.log - INFO - 193-dap-hof-2 energy grid success
+2025-05-25 20:25:43,637 - prepare_energy_grid.log - INFO - 193-dap-hof-2 energy grid changed to np16
+2025-05-25 20:25:46,072 - prepare_energy_grid.log - INFO - 175_1916808_345 energy grid success
+2025-05-25 20:25:46,074 - prepare_energy_grid.log - INFO - 175_1916808_345 energy grid changed to np16
+2025-05-25 20:25:50,035 - prepare_energy_grid.log - INFO - 55_1837136_2-hfbl energy grid success
+2025-05-25 20:25:50,037 - prepare_energy_grid.log - INFO - 55_1837136_2-hfbl energy grid changed to np16
+2025-05-25 20:25:53,416 - prepare_energy_grid.log - INFO - 294-4_pyridine energy grid success
+2025-05-25 20:25:53,418 - prepare_energy_grid.log - INFO - 294-4_pyridine energy grid changed to np16
+2025-05-25 20:25:57,082 - prepare_energy_grid.log - INFO - 293-btere energy grid success
+2025-05-25 20:25:57,085 - prepare_energy_grid.log - INFO - 293-btere energy grid changed to np16
+2025-05-25 20:25:58,817 - prepare_energy_grid.log - INFO - 259-etta_br energy grid success
+2025-05-25 20:25:58,819 - prepare_energy_grid.log - INFO - 259-etta_br energy grid changed to np16
+2025-05-25 20:26:01,262 - prepare_energy_grid.log - INFO - 235_phof-1nh3 energy grid success
+2025-05-25 20:26:01,264 - prepare_energy_grid.log - INFO - 235_phof-1nh3 energy grid changed to np16
+2025-05-25 20:26:03,732 - prepare_energy_grid.log - INFO - 254--hcof-bf3-08 energy grid success
+2025-05-25 20:26:03,735 - prepare_energy_grid.log - INFO - 254--hcof-bf3-08 energy grid changed to np16
+2025-05-25 20:26:08,369 - prepare_energy_grid.log - INFO - 55_1837134_1 energy grid success
+2025-05-25 20:26:08,371 - prepare_energy_grid.log - INFO - 55_1837134_1 energy grid changed to np16
+2025-05-25 20:26:10,130 - prepare_energy_grid.log - INFO - 259-etta_cl energy grid success
+2025-05-25 20:26:10,133 - prepare_energy_grid.log - INFO - 259-etta_cl energy grid changed to np16
+2025-05-25 20:26:16,386 - prepare_energy_grid.log - INFO - 20_1472884_iiserp-hof1 energy grid success
+2025-05-25 20:26:16,386 - prepare_energy_grid.log - INFO - 20_1472884_iiserp-hof1 energy grid changed to np16
+2025-05-25 20:26:19,557 - prepare_energy_grid.log - INFO - 184_cfa-20-cl energy grid success
+2025-05-25 20:26:19,560 - prepare_energy_grid.log - INFO - 184_cfa-20-cl energy grid changed to np16
+2025-05-25 20:26:23,066 - prepare_energy_grid.log - INFO - 23_1424088_1_2dimp energy grid success
+2025-05-25 20:26:23,067 - prepare_energy_grid.log - INFO - 23_1424088_1_2dimp energy grid changed to np16
+2025-05-25 20:26:29,124 - prepare_energy_grid.log - INFO - 48_1846104_25 energy grid success
+2025-05-25 20:26:29,126 - prepare_energy_grid.log - INFO - 48_1846104_25 energy grid changed to np16
+2025-05-25 20:26:32,826 - prepare_energy_grid.log - INFO - 1_12 energy grid success
+2025-05-25 20:26:32,828 - prepare_energy_grid.log - INFO - 1_12 energy grid changed to np16
+2025-05-25 20:26:35,188 - prepare_energy_grid.log - INFO - 117_1948437_hons1 energy grid success
+2025-05-25 20:26:35,190 - prepare_energy_grid.log - INFO - 117_1948437_hons1 energy grid changed to np16
+2025-05-25 20:26:39,410 - prepare_energy_grid.log - INFO - 77_1913304_pethof-3 energy grid success
+2025-05-25 20:26:39,413 - prepare_energy_grid.log - INFO - 77_1913304_pethof-3 energy grid changed to np16
+2025-05-25 20:26:41,160 - prepare_energy_grid.log - INFO - 63_1866017_r-sq energy grid success
+2025-05-25 20:26:41,162 - prepare_energy_grid.log - INFO - 63_1866017_r-sq energy grid changed to np16
+2025-05-25 20:26:44,097 - prepare_energy_grid.log - INFO - 250-hof-zstu-1 energy grid success
+2025-05-25 20:26:44,098 - prepare_energy_grid.log - INFO - 250-hof-zstu-1 energy grid changed to np16
+2025-05-25 20:26:46,076 - prepare_energy_grid.log - INFO - 3_822583_2dmf5c6h6s2a energy grid success
+2025-05-25 20:26:46,078 - prepare_energy_grid.log - INFO - 3_822583_2dmf5c6h6s2a energy grid changed to np16
+2025-05-25 20:26:51,974 - prepare_energy_grid.log - INFO - 7_907058_sbds_tpma_o_chlorotoluene energy grid success
+2025-05-25 20:26:51,975 - prepare_energy_grid.log - INFO - 7_907058_sbds_tpma_o_chlorotoluene energy grid changed to np16
+2025-05-25 20:26:54,743 - prepare_energy_grid.log - INFO - 293-s3_4 energy grid success
+2025-05-25 20:26:54,745 - prepare_energy_grid.log - INFO - 293-s3_4 energy grid changed to np16
+2025-05-25 20:26:57,609 - prepare_energy_grid.log - INFO - 82_1888146_br2-1 energy grid success
+2025-05-25 20:26:57,612 - prepare_energy_grid.log - INFO - 82_1888146_br2-1 energy grid changed to np16
+2025-05-25 20:26:59,642 - prepare_energy_grid.log - INFO - 2342256277 energy grid success
+2025-05-25 20:26:59,644 - prepare_energy_grid.log - INFO - 2342256277 energy grid changed to np16
+2025-05-25 20:27:02,649 - prepare_energy_grid.log - INFO - 189_2038905_cpdc-1 energy grid success
+2025-05-25 20:27:02,652 - prepare_energy_grid.log - INFO - 189_2038905_cpdc-1 energy grid changed to np16
+2025-05-25 20:27:05,203 - prepare_energy_grid.log - INFO - 84_1867934_8 energy grid success
+2025-05-25 20:27:05,205 - prepare_energy_grid.log - INFO - 84_1867934_8 energy grid changed to np16
+2025-05-25 20:27:11,613 - prepare_energy_grid.log - INFO - 15-mo_jesse04_0m_sq energy grid success
+2025-05-25 20:27:11,615 - prepare_energy_grid.log - INFO - 15-mo_jesse04_0m_sq energy grid changed to np16
+2025-05-25 20:27:23,438 - prepare_energy_grid.log - INFO - 106_1904339_pfc-13 energy grid success
+2025-05-25 20:27:23,441 - prepare_energy_grid.log - INFO - 106_1904339_pfc-13 energy grid changed to np16
+2025-05-25 20:27:25,651 - prepare_energy_grid.log - INFO - 191-demsoh energy grid success
+2025-05-25 20:27:25,653 - prepare_energy_grid.log - INFO - 191-demsoh energy grid changed to np16
+2025-05-25 20:27:28,802 - prepare_energy_grid.log - INFO - 84_1867930_4 energy grid success
+2025-05-25 20:27:28,803 - prepare_energy_grid.log - INFO - 84_1867930_4 energy grid changed to np16
+2025-05-25 20:27:30,780 - prepare_energy_grid.log - INFO - 156_1973458_x-hof-1 energy grid success
+2025-05-25 20:27:30,782 - prepare_energy_grid.log - INFO - 156_1973458_x-hof-1 energy grid changed to np16
+2025-05-25 20:27:34,812 - prepare_energy_grid.log - INFO - 201-hof-fju-2dmso energy grid success
+2025-05-25 20:27:34,815 - prepare_energy_grid.log - INFO - 201-hof-fju-2dmso energy grid changed to np16
+2025-05-25 20:27:40,585 - prepare_energy_grid.log - INFO - 110_1981967_g4hspb[rubpy3] energy grid success
+2025-05-25 20:27:40,587 - prepare_energy_grid.log - INFO - 110_1981967_g4hspb[rubpy3] energy grid changed to np16
+2025-05-25 20:27:43,160 - prepare_energy_grid.log - INFO - 209-zioc2-1dot5h2o-rt energy grid success
+2025-05-25 20:27:43,162 - prepare_energy_grid.log - INFO - 209-zioc2-1dot5h2o-rt energy grid changed to np16
+2025-05-25 20:27:46,797 - prepare_energy_grid.log - INFO - 2_g24dmbs energy grid success
+2025-05-25 20:27:46,798 - prepare_energy_grid.log - INFO - 2_g24dmbs energy grid changed to np16
+2025-05-25 20:27:50,726 - prepare_energy_grid.log - INFO - 9_1427360_hof-2-s-pea energy grid success
+2025-05-25 20:27:50,729 - prepare_energy_grid.log - INFO - 9_1427360_hof-2-s-pea energy grid changed to np16
+2025-05-25 20:27:54,163 - prepare_energy_grid.log - INFO - 2_g4bbs26 energy grid success
+2025-05-25 20:27:54,165 - prepare_energy_grid.log - INFO - 2_g4bbs26 energy grid changed to np16
+2025-05-25 20:27:56,737 - prepare_energy_grid.log - INFO - 23_1424091_1_2d3 energy grid success
+2025-05-25 20:27:56,739 - prepare_energy_grid.log - INFO - 23_1424091_1_2d3 energy grid changed to np16
+2025-05-25 20:27:58,972 - prepare_energy_grid.log - INFO - 2252257051hof-fju-37 energy grid success
+2025-05-25 20:27:58,974 - prepare_energy_grid.log - INFO - 2252257051hof-fju-37 energy grid changed to np16
+2025-05-25 20:28:01,621 - prepare_energy_grid.log - INFO - 138_2043142_2d-83 energy grid success
+2025-05-25 20:28:01,624 - prepare_energy_grid.log - INFO - 138_2043142_2d-83 energy grid changed to np16
+2025-05-25 20:28:06,542 - prepare_energy_grid.log - INFO - 75_1889095_16br energy grid success
+2025-05-25 20:28:06,543 - prepare_energy_grid.log - INFO - 75_1889095_16br energy grid changed to np16
+2025-05-25 20:28:08,247 - prepare_energy_grid.log - INFO - 102_1970874_7ndmso energy grid success
+2025-05-25 20:28:08,250 - prepare_energy_grid.log - INFO - 102_1970874_7ndmso energy grid changed to np16
+2025-05-25 20:28:12,148 - prepare_energy_grid.log - INFO - 160_2056904_tpe2tph energy grid success
+2025-05-25 20:28:12,148 - prepare_energy_grid.log - INFO - 160_2056904_tpe2tph energy grid changed to np16
+2025-05-25 20:28:15,870 - prepare_energy_grid.log - INFO - 256-th5_dmf-thf energy grid success
+2025-05-25 20:28:15,873 - prepare_energy_grid.log - INFO - 256-th5_dmf-thf energy grid changed to np16
+2025-05-25 20:28:19,677 - prepare_energy_grid.log - INFO - 111_1850974_1-298 energy grid success
+2025-05-25 20:28:19,678 - prepare_energy_grid.log - INFO - 111_1850974_1-298 energy grid changed to np16
+2025-05-25 20:28:21,167 - prepare_energy_grid.log - INFO - 169_2083182_re6-hof-2as energy grid success
+2025-05-25 20:28:21,170 - prepare_energy_grid.log - INFO - 169_2083182_re6-hof-2as energy grid changed to np16
+2025-05-25 20:28:23,981 - prepare_energy_grid.log - INFO - 13-2d2_dmaa energy grid success
+2025-05-25 20:28:23,983 - prepare_energy_grid.log - INFO - 13-2d2_dmaa energy grid changed to np16
+2025-05-25 20:28:27,711 - prepare_energy_grid.log - INFO - 118_1991981_pentamof-1 energy grid success
+2025-05-25 20:28:27,713 - prepare_energy_grid.log - INFO - 118_1991981_pentamof-1 energy grid changed to np16
+2025-05-25 20:28:29,503 - prepare_energy_grid.log - INFO - 102_1970872_9 energy grid success
+2025-05-25 20:28:29,506 - prepare_energy_grid.log - INFO - 102_1970872_9 energy grid changed to np16
+2025-05-25 20:28:34,085 - prepare_energy_grid.log - INFO - 36_1566036_imp-18 energy grid success
+2025-05-25 20:28:34,088 - prepare_energy_grid.log - INFO - 36_1566036_imp-18 energy grid changed to np16
+2025-05-25 20:28:38,120 - prepare_energy_grid.log - INFO - 54_1857527_py6mes25thf energy grid success
+2025-05-25 20:28:38,121 - prepare_energy_grid.log - INFO - 54_1857527_py6mes25thf energy grid changed to np16
+2025-05-25 20:28:39,268 - prepare_energy_grid.log - INFO - 294-1_4 energy grid success
+2025-05-25 20:28:39,270 - prepare_energy_grid.log - INFO - 294-1_4 energy grid changed to np16
+2025-05-25 20:28:43,895 - prepare_energy_grid.log - INFO - 291-hof2-s energy grid success
+2025-05-25 20:28:43,896 - prepare_energy_grid.log - INFO - 291-hof2-s energy grid changed to np16
+2025-05-25 20:28:45,693 - prepare_energy_grid.log - INFO - 139_2052951-fju-200 energy grid success
+2025-05-25 20:28:45,695 - prepare_energy_grid.log - INFO - 139_2052951-fju-200 energy grid changed to np16
+2025-05-25 20:28:47,820 - prepare_energy_grid.log - INFO - 152_2077923_pfc-79 energy grid success
+2025-05-25 20:28:47,822 - prepare_energy_grid.log - INFO - 152_2077923_pfc-79 energy grid changed to np16
+2025-05-25 20:28:50,254 - prepare_energy_grid.log - INFO - 2_g2cbs energy grid success
+2025-05-25 20:28:50,257 - prepare_energy_grid.log - INFO - 2_g2cbs energy grid changed to np16
+2025-05-25 20:28:51,748 - prepare_energy_grid.log - INFO - 185_h4ttf-tb-1d energy grid success
+2025-05-25 20:28:51,751 - prepare_energy_grid.log - INFO - 185_h4ttf-tb-1d energy grid changed to np16
+2025-05-25 20:28:55,442 - prepare_energy_grid.log - INFO - 1_1 energy grid success
+2025-05-25 20:28:55,444 - prepare_energy_grid.log - INFO - 1_1 energy grid changed to np16
+2025-05-25 20:28:59,981 - prepare_energy_grid.log - INFO - 1_13 energy grid success
+2025-05-25 20:28:59,983 - prepare_energy_grid.log - INFO - 1_13 energy grid changed to np16
+2025-05-25 20:29:01,972 - prepare_energy_grid.log - INFO - 190_hof-101-ch3 energy grid success
+2025-05-25 20:29:01,973 - prepare_energy_grid.log - INFO - 190_hof-101-ch3 energy grid changed to np16
+2025-05-25 20:29:03,563 - prepare_energy_grid.log - INFO - 104_1857374_2 energy grid success
+2025-05-25 20:29:03,566 - prepare_energy_grid.log - INFO - 104_1857374_2 energy grid changed to np16
+2025-05-25 20:29:08,192 - prepare_energy_grid.log - INFO - 36_1566037_imp-19 energy grid success
+2025-05-25 20:29:08,194 - prepare_energy_grid.log - INFO - 36_1566037_imp-19 energy grid changed to np16
+2025-05-25 20:29:10,216 - prepare_energy_grid.log - INFO - 162_2076402_pyba_298k energy grid success
+2025-05-25 20:29:10,220 - prepare_energy_grid.log - INFO - 162_2076402_pyba_298k energy grid changed to np16
+2025-05-25 20:29:12,349 - prepare_energy_grid.log - INFO - 305-hof-45 energy grid success
+2025-05-25 20:29:12,350 - prepare_energy_grid.log - INFO - 305-hof-45 energy grid changed to np16
+2025-05-25 20:29:14,920 - prepare_energy_grid.log - INFO - 313-h4bptc-bpe energy grid success
+2025-05-25 20:29:14,922 - prepare_energy_grid.log - INFO - 313-h4bptc-bpe energy grid changed to np16
+2025-05-25 20:29:17,243 - prepare_energy_grid.log - INFO - 208 energy grid success
+2025-05-25 20:29:17,244 - prepare_energy_grid.log - INFO - 208 energy grid changed to np16
+2025-05-25 20:29:19,991 - prepare_energy_grid.log - INFO - 26_1523339_ortho energy grid success
+2025-05-25 20:29:19,993 - prepare_energy_grid.log - INFO - 26_1523339_ortho energy grid changed to np16
+2025-05-25 20:29:23,536 - prepare_energy_grid.log - INFO - 5-8 energy grid success
+2025-05-25 20:29:23,537 - prepare_energy_grid.log - INFO - 5-8 energy grid changed to np16
+2025-05-25 20:29:26,403 - prepare_energy_grid.log - INFO - 264-cp-py-1-menaph energy grid success
+2025-05-25 20:29:26,405 - prepare_energy_grid.log - INFO - 264-cp-py-1-menaph energy grid changed to np16
+2025-05-25 20:29:29,405 - prepare_energy_grid.log - INFO - 2_g4cbs0513 energy grid success
+2025-05-25 20:29:29,408 - prepare_energy_grid.log - INFO - 2_g4cbs0513 energy grid changed to np16
+2025-05-25 20:29:31,636 - prepare_energy_grid.log - INFO - 211-tcbp-1 energy grid success
+2025-05-25 20:29:31,639 - prepare_energy_grid.log - INFO - 211-tcbp-1 energy grid changed to np16
+2025-05-25 20:29:39,798 - prepare_energy_grid.log - INFO - 312-melem-h2o energy grid success
+2025-05-25 20:29:39,800 - prepare_energy_grid.log - INFO - 312-melem-h2o energy grid changed to np16
+2025-05-25 20:29:44,003 - prepare_energy_grid.log - INFO - 55_1837145_1-22min energy grid success
+2025-05-25 20:29:44,005 - prepare_energy_grid.log - INFO - 55_1837145_1-22min energy grid changed to np16
+2025-05-25 20:29:45,566 - prepare_energy_grid.log - INFO - 128_2010569_pfc-33tma energy grid success
+2025-05-25 20:29:45,568 - prepare_energy_grid.log - INFO - 128_2010569_pfc-33tma energy grid changed to np16
+2025-05-25 20:29:48,333 - prepare_energy_grid.log - INFO - 5-12 energy grid success
+2025-05-25 20:29:48,336 - prepare_energy_grid.log - INFO - 5-12 energy grid changed to np16
+2025-05-25 20:29:50,854 - prepare_energy_grid.log - INFO - 98_1938466_complex2 energy grid success
+2025-05-25 20:29:50,856 - prepare_energy_grid.log - INFO - 98_1938466_complex2 energy grid changed to np16
+2025-05-25 20:29:55,389 - prepare_energy_grid.log - INFO - 142_2031628_8pcom-dcm energy grid success
+2025-05-25 20:29:55,391 - prepare_energy_grid.log - INFO - 142_2031628_8pcom-dcm energy grid changed to np16
+2025-05-25 20:29:58,704 - prepare_energy_grid.log - INFO - 47_1819845_1 energy grid success
+2025-05-25 20:29:58,706 - prepare_energy_grid.log - INFO - 47_1819845_1 energy grid changed to np16
+2025-05-25 20:29:59,503 - prepare_energy_grid.log - INFO - 28_1520230_t2edmf173 energy grid success
+2025-05-25 20:29:59,505 - prepare_energy_grid.log - INFO - 28_1520230_t2edmf173 energy grid changed to np16
+2025-05-25 20:30:03,451 - prepare_energy_grid.log - INFO - 293-cphenyl energy grid success
+2025-05-25 20:30:03,453 - prepare_energy_grid.log - INFO - 293-cphenyl energy grid changed to np16
+2025-05-25 20:30:09,267 - prepare_energy_grid.log - INFO - 84_1867935_9 energy grid success
+2025-05-25 20:30:09,269 - prepare_energy_grid.log - INFO - 84_1867935_9 energy grid changed to np16
+2025-05-25 20:30:11,299 - prepare_energy_grid.log - INFO - 128_2010567_pfc-33 energy grid success
+2025-05-25 20:30:11,301 - prepare_energy_grid.log - INFO - 128_2010567_pfc-33 energy grid changed to np16
+2025-05-25 20:30:12,898 - prepare_energy_grid.log - INFO - 114-1686051-gd-b energy grid success
+2025-05-25 20:30:12,901 - prepare_energy_grid.log - INFO - 114-1686051-gd-b energy grid changed to np16
+2025-05-25 20:30:14,340 - prepare_energy_grid.log - INFO - 70_1898280_hof1h2o energy grid success
+2025-05-25 20:30:14,342 - prepare_energy_grid.log - INFO - 70_1898280_hof1h2o energy grid changed to np16
+2025-05-25 20:30:17,410 - prepare_energy_grid.log - INFO - 1_7 energy grid success
+2025-05-25 20:30:17,411 - prepare_energy_grid.log - INFO - 1_7 energy grid changed to np16
+2025-05-25 20:30:20,051 - prepare_energy_grid.log - INFO - 2202210794hof-tj-1 energy grid success
+2025-05-25 20:30:20,053 - prepare_energy_grid.log - INFO - 2202210794hof-tj-1 energy grid changed to np16
+2025-05-25 20:30:22,501 - prepare_energy_grid.log - INFO - 270-fju-56 energy grid success
+2025-05-25 20:30:22,505 - prepare_energy_grid.log - INFO - 270-fju-56 energy grid changed to np16
+2025-05-25 20:30:24,597 - prepare_energy_grid.log - INFO - 42_1579889_phtcz-1 energy grid success
+2025-05-25 20:30:24,600 - prepare_energy_grid.log - INFO - 42_1579889_phtcz-1 energy grid changed to np16
+2025-05-25 20:30:26,488 - prepare_energy_grid.log - INFO - 28_1478359_t2dmso941 energy grid success
+2025-05-25 20:30:26,491 - prepare_energy_grid.log - INFO - 28_1478359_t2dmso941 energy grid changed to np16
+2025-05-25 20:30:28,647 - prepare_energy_grid.log - INFO - 180_hof-6 energy grid success
+2025-05-25 20:30:28,649 - prepare_energy_grid.log - INFO - 180_hof-6 energy grid changed to np16
+2025-05-25 20:30:30,959 - prepare_energy_grid.log - INFO - 66_1886467_tpm_an-100k energy grid success
+2025-05-25 20:30:30,961 - prepare_energy_grid.log - INFO - 66_1886467_tpm_an-100k energy grid changed to np16
+2025-05-25 20:30:34,324 - prepare_energy_grid.log - INFO - 2272235810 energy grid success
+2025-05-25 20:30:34,327 - prepare_energy_grid.log - INFO - 2272235810 energy grid changed to np16
+2025-05-25 20:30:36,241 - prepare_energy_grid.log - INFO - 187_2d-s energy grid success
+2025-05-25 20:30:36,243 - prepare_energy_grid.log - INFO - 187_2d-s energy grid changed to np16
+2025-05-25 20:30:39,414 - prepare_energy_grid.log - INFO - 130_1955714_hof-14 energy grid success
+2025-05-25 20:30:39,416 - prepare_energy_grid.log - INFO - 130_1955714_hof-14 energy grid changed to np16
+2025-05-25 20:30:42,363 - prepare_energy_grid.log - INFO - 37_1541098-xiv energy grid success
+2025-05-25 20:30:42,365 - prepare_energy_grid.log - INFO - 37_1541098-xiv energy grid changed to np16
+2025-05-25 20:30:44,694 - prepare_energy_grid.log - INFO - 293-3_oxalate energy grid success
+2025-05-25 20:30:44,696 - prepare_energy_grid.log - INFO - 293-3_oxalate energy grid changed to np16
+2025-05-25 20:30:47,366 - prepare_energy_grid.log - INFO - 293-anh2 energy grid success
+2025-05-25 20:30:47,367 - prepare_energy_grid.log - INFO - 293-anh2 energy grid changed to np16
+2025-05-25 20:30:49,084 - prepare_energy_grid.log - INFO - 259-etta_cl2br2 energy grid success
+2025-05-25 20:30:49,086 - prepare_energy_grid.log - INFO - 259-etta_cl2br2 energy grid changed to np16
+2025-05-25 20:30:51,385 - prepare_energy_grid.log - INFO - 235_phof-1 energy grid success
+2025-05-25 20:30:51,387 - prepare_energy_grid.log - INFO - 235_phof-1 energy grid changed to np16
+2025-05-25 20:31:05,061 - prepare_energy_grid.log - INFO - 106_1904338_pfc-11 energy grid success
+2025-05-25 20:31:05,063 - prepare_energy_grid.log - INFO - 106_1904338_pfc-11 energy grid changed to np16
+2025-05-25 20:31:06,848 - prepare_energy_grid.log - INFO - 24_1507980_hof-tcbp energy grid success
+2025-05-25 20:31:06,850 - prepare_energy_grid.log - INFO - 24_1507980_hof-tcbp energy grid changed to np16
+2025-05-25 20:31:12,376 - prepare_energy_grid.log - INFO - 163_2090890_m1-ta energy grid success
+2025-05-25 20:31:12,377 - prepare_energy_grid.log - INFO - 163_2090890_m1-ta energy grid changed to np16
+2025-05-25 20:31:19,667 - prepare_energy_grid.log - INFO - 6_880741_1-pys-tpmatmbd-pos2 energy grid success
+2025-05-25 20:31:19,669 - prepare_energy_grid.log - INFO - 6_880741_1-pys-tpmatmbd-pos2 energy grid changed to np16
+2025-05-25 20:31:25,825 - prepare_energy_grid.log - INFO - 5-14 energy grid success
+2025-05-25 20:31:25,827 - prepare_energy_grid.log - INFO - 5-14 energy grid changed to np16
+2025-05-25 20:31:28,468 - prepare_energy_grid.log - INFO - 33_1567204_hof-10 energy grid success
+2025-05-25 20:31:28,471 - prepare_energy_grid.log - INFO - 33_1567204_hof-10 energy grid changed to np16
+2025-05-25 20:31:31,211 - prepare_energy_grid.log - INFO - 261-mc250-2173798 energy grid success
+2025-05-25 20:31:31,213 - prepare_energy_grid.log - INFO - 261-mc250-2173798 energy grid changed to np16
+2025-05-25 20:31:33,350 - prepare_energy_grid.log - INFO - 137_1971951_jlu-sof3 energy grid success
+2025-05-25 20:31:33,352 - prepare_energy_grid.log - INFO - 137_1971951_jlu-sof3 energy grid changed to np16
+2025-05-25 20:31:36,492 - prepare_energy_grid.log - INFO - 48_1846105_23 energy grid success
+2025-05-25 20:31:36,493 - prepare_energy_grid.log - INFO - 48_1846105_23 energy grid changed to np16
+2025-05-25 20:31:38,424 - prepare_energy_grid.log - INFO - 87_1902588_tcpp-4dmf energy grid success
+2025-05-25 20:31:38,427 - prepare_energy_grid.log - INFO - 87_1902588_tcpp-4dmf energy grid changed to np16
+2025-05-25 20:31:40,459 - prepare_energy_grid.log - INFO - 37_1541089-v energy grid success
+2025-05-25 20:31:40,462 - prepare_energy_grid.log - INFO - 37_1541089-v energy grid changed to np16
+2025-05-25 20:31:43,101 - prepare_energy_grid.log - INFO - 158_1878390_hof-fju-1 energy grid success
+2025-05-25 20:31:43,104 - prepare_energy_grid.log - INFO - 158_1878390_hof-fju-1 energy grid changed to np16
+2025-05-25 20:31:44,787 - prepare_energy_grid.log - INFO - 59_1834674_2 energy grid success
+2025-05-25 20:31:44,790 - prepare_energy_grid.log - INFO - 59_1834674_2 energy grid changed to np16
+2025-05-25 20:31:48,180 - prepare_energy_grid.log - INFO - 73_1908806_hcof-2 energy grid success
+2025-05-25 20:31:48,183 - prepare_energy_grid.log - INFO - 73_1908806_hcof-2 energy grid changed to np16
+2025-05-25 20:31:50,632 - prepare_energy_grid.log - INFO - 37_1541091-vii energy grid success
+2025-05-25 20:31:50,634 - prepare_energy_grid.log - INFO - 37_1541091-vii energy grid changed to np16
+2025-05-25 20:31:54,089 - prepare_energy_grid.log - INFO - 182_ihof-1 energy grid success
+2025-05-25 20:31:54,091 - prepare_energy_grid.log - INFO - 182_ihof-1 energy grid changed to np16
+2025-05-25 20:31:58,834 - prepare_energy_grid.log - INFO - 75_1889091_16pf6 energy grid success
+2025-05-25 20:31:58,836 - prepare_energy_grid.log - INFO - 75_1889091_16pf6 energy grid changed to np16
+2025-05-25 20:32:01,746 - prepare_energy_grid.log - INFO - 143_1980887_smof-pfsix-1 energy grid success
+2025-05-25 20:32:01,748 - prepare_energy_grid.log - INFO - 143_1980887_smof-pfsix-1 energy grid changed to np16
+2025-05-25 20:32:04,009 - prepare_energy_grid.log - INFO - 2_g2mbs energy grid success
+2025-05-25 20:32:04,012 - prepare_energy_grid.log - INFO - 2_g2mbs energy grid changed to np16
+2025-05-25 20:32:07,717 - prepare_energy_grid.log - INFO - 293-banth energy grid success
+2025-05-25 20:32:07,722 - prepare_energy_grid.log - INFO - 293-banth energy grid changed to np16
+2025-05-25 20:32:08,877 - prepare_energy_grid.log - INFO - 152_2077917_pfc-78 energy grid success
+2025-05-25 20:32:08,879 - prepare_energy_grid.log - INFO - 152_2077917_pfc-78 energy grid changed to np16
+2025-05-25 20:32:13,084 - prepare_energy_grid.log - INFO - 258-hof-lifm-7 energy grid success
+2025-05-25 20:32:13,087 - prepare_energy_grid.log - INFO - 258-hof-lifm-7 energy grid changed to np16
+2025-05-25 20:32:17,296 - prepare_energy_grid.log - INFO - 184_cfa-20-tp energy grid success
+2025-05-25 20:32:17,298 - prepare_energy_grid.log - INFO - 184_cfa-20-tp energy grid changed to np16
+2025-05-25 20:32:20,028 - prepare_energy_grid.log - INFO - 5-2 energy grid success
+2025-05-25 20:32:20,030 - prepare_energy_grid.log - INFO - 5-2 energy grid changed to np16
+2025-05-25 20:32:23,909 - prepare_energy_grid.log - INFO - 196-1 energy grid success
+2025-05-25 20:32:23,911 - prepare_energy_grid.log - INFO - 196-1 energy grid changed to np16
+2025-05-25 20:32:25,834 - prepare_energy_grid.log - INFO - 275-cagehof-2_dmac energy grid success
+2025-05-25 20:32:25,835 - prepare_energy_grid.log - INFO - 275-cagehof-2_dmac energy grid changed to np16
+2025-05-25 20:32:27,480 - prepare_energy_grid.log - INFO - 128_2010568_pfc-33nh4 energy grid success
+2025-05-25 20:32:27,482 - prepare_energy_grid.log - INFO - 128_2010568_pfc-33nh4 energy grid changed to np16
+2025-05-25 20:32:28,919 - prepare_energy_grid.log - INFO - 69_1911192_pfc-2 energy grid success
+2025-05-25 20:32:28,922 - prepare_energy_grid.log - INFO - 69_1911192_pfc-2 energy grid changed to np16
+2025-05-25 20:32:31,062 - prepare_energy_grid.log - INFO - 107_1973441_1 energy grid success
+2025-05-25 20:32:31,064 - prepare_energy_grid.log - INFO - 107_1973441_1 energy grid changed to np16
+2025-05-25 20:32:34,146 - prepare_energy_grid.log - INFO - 141_2027045_hof-nf energy grid success
+2025-05-25 20:32:34,147 - prepare_energy_grid.log - INFO - 141_2027045_hof-nf energy grid changed to np16
+2025-05-25 20:32:36,710 - prepare_energy_grid.log - INFO - 37_1541096-xii energy grid success
+2025-05-25 20:32:36,712 - prepare_energy_grid.log - INFO - 37_1541096-xii energy grid changed to np16
+2025-05-25 20:32:40,416 - prepare_energy_grid.log - INFO - 269-mcf energy grid success
+2025-05-25 20:32:40,418 - prepare_energy_grid.log - INFO - 269-mcf energy grid changed to np16
+2025-05-25 20:32:42,120 - prepare_energy_grid.log - INFO - 71_1900772_hof-19 energy grid success
+2025-05-25 20:32:42,122 - prepare_energy_grid.log - INFO - 71_1900772_hof-19 energy grid changed to np16
+2025-05-25 20:32:44,030 - prepare_energy_grid.log - INFO - 146_2051621_t12f-1124tcb energy grid success
+2025-05-25 20:32:44,032 - prepare_energy_grid.log - INFO - 146_2051621_t12f-1124tcb energy grid changed to np16
+2025-05-25 20:32:46,544 - prepare_energy_grid.log - INFO - 2_g4as3 energy grid success
+2025-05-25 20:32:46,546 - prepare_energy_grid.log - INFO - 2_g4as3 energy grid changed to np16
+2025-05-25 20:32:48,148 - prepare_energy_grid.log - INFO - 28_1520228_t2-_pentane energy grid success
+2025-05-25 20:32:48,150 - prepare_energy_grid.log - INFO - 28_1520228_t2-_pentane energy grid changed to np16
+2025-05-25 20:32:53,271 - prepare_energy_grid.log - INFO - 102_1970871_83dmsosolvent energy grid success
+2025-05-25 20:32:53,273 - prepare_energy_grid.log - INFO - 102_1970871_83dmsosolvent energy grid changed to np16
+2025-05-25 20:32:56,163 - prepare_energy_grid.log - INFO - 211-ptba-1a_sq energy grid success
+2025-05-25 20:32:56,166 - prepare_energy_grid.log - INFO - 211-ptba-1a_sq energy grid changed to np16
+2025-05-25 20:32:59,813 - prepare_energy_grid.log - INFO - 243-hof-fju-40 energy grid success
+2025-05-25 20:32:59,815 - prepare_energy_grid.log - INFO - 243-hof-fju-40 energy grid changed to np16
+2025-05-25 20:33:03,142 - prepare_energy_grid.log - INFO - 129_1984229_upc-h8 energy grid success
+2025-05-25 20:33:03,145 - prepare_energy_grid.log - INFO - 129_1984229_upc-h8 energy grid changed to np16
+2025-05-25 20:33:06,332 - prepare_energy_grid.log - INFO - 19_1457117_t12-2dmf energy grid success
+2025-05-25 20:33:06,334 - prepare_energy_grid.log - INFO - 19_1457117_t12-2dmf energy grid changed to np16
+2025-05-25 20:33:06,789 - prepare_energy_grid.log - INFO - 257-rub-hofs energy grid success
+2025-05-25 20:33:06,791 - prepare_energy_grid.log - INFO - 257-rub-hofs energy grid changed to np16
+2025-05-25 20:33:09,843 - prepare_energy_grid.log - INFO - 2002164359m-tpy energy grid success
+2025-05-25 20:33:09,845 - prepare_energy_grid.log - INFO - 2002164359m-tpy energy grid changed to np16
+2025-05-25 20:33:11,900 - prepare_energy_grid.log - INFO - 168_2087505_hof-30a energy grid success
+2025-05-25 20:33:11,902 - prepare_energy_grid.log - INFO - 168_2087505_hof-30a energy grid changed to np16
+2025-05-25 20:33:14,110 - prepare_energy_grid.log - INFO - 28_1478360_t2dmac779 energy grid success
+2025-05-25 20:33:14,112 - prepare_energy_grid.log - INFO - 28_1478360_t2dmac779 energy grid changed to np16
+2025-05-25 20:33:16,718 - prepare_energy_grid.log - INFO - 187_1d-w energy grid success
+2025-05-25 20:33:16,720 - prepare_energy_grid.log - INFO - 187_1d-w energy grid changed to np16
+2025-05-25 20:33:21,019 - prepare_energy_grid.log - INFO - 102_1970868_262dmso9h2o energy grid success
+2025-05-25 20:33:21,021 - prepare_energy_grid.log - INFO - 102_1970868_262dmso9h2o energy grid changed to np16
+2025-05-25 20:33:23,443 - prepare_energy_grid.log - INFO - 1_15 energy grid success
+2025-05-25 20:33:23,445 - prepare_energy_grid.log - INFO - 1_15 energy grid changed to np16
+2025-05-25 20:33:27,258 - prepare_energy_grid.log - INFO - 187_3d-thiophene-pbenzoquinone energy grid success
+2025-05-25 20:33:27,259 - prepare_energy_grid.log - INFO - 187_3d-thiophene-pbenzoquinone energy grid changed to np16
+2025-05-25 20:33:32,028 - prepare_energy_grid.log - INFO - 293-1_s5 energy grid success
+2025-05-25 20:33:32,029 - prepare_energy_grid.log - INFO - 293-1_s5 energy grid changed to np16
+2025-05-25 20:34:06,891 - prepare_energy_grid.log - INFO - 56_1833799_2dy4cu4 energy grid success
+2025-05-25 20:34:06,894 - prepare_energy_grid.log - INFO - 56_1833799_2dy4cu4 energy grid changed to np16
+2025-05-25 20:34:09,530 - prepare_energy_grid.log - INFO - 264-cp-py-2-dcb energy grid success
+2025-05-25 20:34:09,532 - prepare_energy_grid.log - INFO - 264-cp-py-2-dcb energy grid changed to np16
+2025-05-25 20:34:12,938 - prepare_energy_grid.log - INFO - 1_4 energy grid success
+2025-05-25 20:34:12,942 - prepare_energy_grid.log - INFO - 1_4 energy grid changed to np16
+2025-05-25 20:34:15,485 - prepare_energy_grid.log - INFO - 145_2000839_pfc-25 energy grid success
+2025-05-25 20:34:15,487 - prepare_energy_grid.log - INFO - 145_2000839_pfc-25 energy grid changed to np16
+2025-05-25 20:34:17,423 - prepare_energy_grid.log - INFO - 67_1891045_imd-hbc_260k energy grid success
+2025-05-25 20:34:17,425 - prepare_energy_grid.log - INFO - 67_1891045_imd-hbc_260k energy grid changed to np16
+2025-05-25 20:34:21,843 - prepare_energy_grid.log - INFO - 187_3d-thiophene energy grid success
+2025-05-25 20:34:21,845 - prepare_energy_grid.log - INFO - 187_3d-thiophene energy grid changed to np16
+2025-05-25 20:34:26,829 - prepare_energy_grid.log - INFO - 310-hof-fju-52 energy grid success
+2025-05-25 20:34:26,831 - prepare_energy_grid.log - INFO - 310-hof-fju-52 energy grid changed to np16
+2025-05-25 20:34:30,489 - prepare_energy_grid.log - INFO - 2_g4fbs energy grid success
+2025-05-25 20:34:30,491 - prepare_energy_grid.log - INFO - 2_g4fbs energy grid changed to np16
+2025-05-25 20:34:33,421 - prepare_energy_grid.log - INFO - 172-tpe-aa-2 energy grid success
+2025-05-25 20:34:33,424 - prepare_energy_grid.log - INFO - 172-tpe-aa-2 energy grid changed to np16
+2025-05-25 20:34:36,925 - prepare_energy_grid.log - INFO - 1882ct-18c6-i energy grid success
+2025-05-25 20:34:36,926 - prepare_energy_grid.log - INFO - 1882ct-18c6-i energy grid changed to np16
+2025-05-25 20:34:38,871 - prepare_energy_grid.log - INFO - 264-cp-py-1-tcb energy grid success
+2025-05-25 20:34:38,873 - prepare_energy_grid.log - INFO - 264-cp-py-1-tcb energy grid changed to np16
+2025-05-25 20:34:40,646 - prepare_energy_grid.log - INFO - 258-hof-lifm-8 energy grid success
+2025-05-25 20:34:40,649 - prepare_energy_grid.log - INFO - 258-hof-lifm-8 energy grid changed to np16
+2025-05-25 20:34:49,275 - prepare_energy_grid.log - INFO - 5-7 energy grid success
+2025-05-25 20:34:49,277 - prepare_energy_grid.log - INFO - 5-7 energy grid changed to np16
+2025-05-25 20:34:54,252 - prepare_energy_grid.log - INFO - 55_1837142_1-0mine energy grid success
+2025-05-25 20:34:54,254 - prepare_energy_grid.log - INFO - 55_1837142_1-0mine energy grid changed to np16
+2025-05-25 20:34:57,325 - prepare_energy_grid.log - INFO - 205l-et energy grid success
+2025-05-25 20:34:57,326 - prepare_energy_grid.log - INFO - 205l-et energy grid changed to np16
+2025-05-25 20:34:59,972 - prepare_energy_grid.log - INFO - 2272235811 energy grid success
+2025-05-25 20:34:59,974 - prepare_energy_grid.log - INFO - 2272235811 energy grid changed to np16
+2025-05-25 20:35:12,782 - prepare_energy_grid.log - INFO - 105_1976117_cpbtq-1mebz energy grid success
+2025-05-25 20:35:12,785 - prepare_energy_grid.log - INFO - 105_1976117_cpbtq-1mebz energy grid changed to np16
+2025-05-25 20:35:15,365 - prepare_energy_grid.log - INFO - 149_1962983_bpmcz-p1 energy grid success
+2025-05-25 20:35:15,367 - prepare_energy_grid.log - INFO - 149_1962983_bpmcz-p1 energy grid changed to np16
+2025-05-25 20:35:19,037 - prepare_energy_grid.log - INFO - 2_g25dmbs energy grid success
+2025-05-25 20:35:19,038 - prepare_energy_grid.log - INFO - 2_g25dmbs energy grid changed to np16
+2025-05-25 20:35:22,782 - prepare_energy_grid.log - INFO - 2_g4nbs055 energy grid success
+2025-05-25 20:35:22,784 - prepare_energy_grid.log - INFO - 2_g4nbs055 energy grid changed to np16
+2025-05-25 20:35:28,468 - prepare_energy_grid.log - INFO - 5-6 energy grid success
+2025-05-25 20:35:28,470 - prepare_energy_grid.log - INFO - 5-6 energy grid changed to np16
+2025-05-25 20:35:29,748 - prepare_energy_grid.log - INFO - 116_1977891_abtpa-1 energy grid success
+2025-05-25 20:35:29,750 - prepare_energy_grid.log - INFO - 116_1977891_abtpa-1 energy grid changed to np16
+2025-05-25 20:35:30,971 - prepare_energy_grid.log - INFO - 263-tptca-2 energy grid success
+2025-05-25 20:35:30,973 - prepare_energy_grid.log - INFO - 263-tptca-2 energy grid changed to np16
+2025-05-25 20:35:37,091 - prepare_energy_grid.log - INFO - 5-15 energy grid success
+2025-05-25 20:35:37,093 - prepare_energy_grid.log - INFO - 5-15 energy grid changed to np16
+2025-05-25 20:35:38,955 - prepare_energy_grid.log - INFO - 263-bptca-2 energy grid success
+2025-05-25 20:35:38,957 - prepare_energy_grid.log - INFO - 263-bptca-2 energy grid changed to np16
+2025-05-25 20:35:43,368 - prepare_energy_grid.log - INFO - 19_1035280_t18-1 energy grid success
+2025-05-25 20:35:43,371 - prepare_energy_grid.log - INFO - 19_1035280_t18-1 energy grid changed to np16
+2025-05-25 20:35:46,448 - prepare_energy_grid.log - INFO - 11_1010353_hof-4 energy grid success
+2025-05-25 20:35:46,450 - prepare_energy_grid.log - INFO - 11_1010353_hof-4 energy grid changed to np16
+2025-05-25 20:35:49,969 - prepare_energy_grid.log - INFO - 2_g4cbs25 energy grid success
+2025-05-25 20:35:49,971 - prepare_energy_grid.log - INFO - 2_g4cbs25 energy grid changed to np16
+2025-05-25 20:35:52,700 - prepare_energy_grid.log - INFO - 23_1424086_1_2d4 energy grid success
+2025-05-25 20:35:52,702 - prepare_energy_grid.log - INFO - 23_1424086_1_2d4 energy grid changed to np16
+2025-05-25 20:35:55,938 - prepare_energy_grid.log - INFO - 83_1940427_kuf-1 energy grid success
+2025-05-25 20:35:55,940 - prepare_energy_grid.log - INFO - 83_1940427_kuf-1 energy grid changed to np16
+2025-05-25 20:36:01,766 - prepare_energy_grid.log - INFO - 187_2d-ms energy grid success
+2025-05-25 20:36:01,769 - prepare_energy_grid.log - INFO - 187_2d-ms energy grid changed to np16
+2025-05-25 20:36:03,451 - prepare_energy_grid.log - INFO - 250-hof-zstu-3 energy grid success
+2025-05-25 20:36:03,454 - prepare_energy_grid.log - INFO - 250-hof-zstu-3 energy grid changed to np16
+2025-05-25 20:36:05,926 - prepare_energy_grid.log - INFO - 172-tpe-aa-1 energy grid success
+2025-05-25 20:36:05,928 - prepare_energy_grid.log - INFO - 172-tpe-aa-1 energy grid changed to np16
+2025-05-25 20:36:08,102 - prepare_energy_grid.log - INFO - 86_1865476_cpos-5_273k energy grid success
+2025-05-25 20:36:08,105 - prepare_energy_grid.log - INFO - 86_1865476_cpos-5_273k energy grid changed to np16
+2025-05-25 20:36:11,165 - prepare_energy_grid.log - INFO - 43_1583113_cpos-1 energy grid success
+2025-05-25 20:36:11,167 - prepare_energy_grid.log - INFO - 43_1583113_cpos-1 energy grid changed to np16
+2025-05-25 20:36:14,271 - prepare_energy_grid.log - INFO - 297_sof-10 energy grid success
+2025-05-25 20:36:14,273 - prepare_energy_grid.log - INFO - 297_sof-10 energy grid changed to np16
+2025-05-25 20:36:17,984 - prepare_energy_grid.log - INFO - 2_g4bbs22 energy grid success
+2025-05-25 20:36:17,985 - prepare_energy_grid.log - INFO - 2_g4bbs22 energy grid changed to np16
+2025-05-25 20:36:22,574 - prepare_energy_grid.log - INFO - 45_1555042_1b energy grid success
+2025-05-25 20:36:22,576 - prepare_energy_grid.log - INFO - 45_1555042_1b energy grid changed to np16
+2025-05-25 20:36:30,433 - prepare_energy_grid.log - INFO - 2_g4tbbs energy grid success
+2025-05-25 20:36:30,435 - prepare_energy_grid.log - INFO - 2_g4tbbs energy grid changed to np16
+2025-05-25 20:36:32,501 - prepare_energy_grid.log - INFO - 301-x-hof-4 energy grid success
+2025-05-25 20:36:32,502 - prepare_energy_grid.log - INFO - 301-x-hof-4 energy grid changed to np16
+2025-05-25 20:36:36,135 - prepare_energy_grid.log - INFO - 2_g4mbs22 energy grid success
+2025-05-25 20:36:36,137 - prepare_energy_grid.log - INFO - 2_g4mbs22 energy grid changed to np16
+2025-05-25 20:36:38,120 - prepare_energy_grid.log - INFO - 42_1579887_phtcz-3 energy grid success
+2025-05-25 20:36:38,122 - prepare_energy_grid.log - INFO - 42_1579887_phtcz-3 energy grid changed to np16
+2025-05-25 20:36:40,858 - prepare_energy_grid.log - INFO - 19_1035282_t18-2dmf energy grid success
+2025-05-25 20:36:40,860 - prepare_energy_grid.log - INFO - 19_1035282_t18-2dmf energy grid changed to np16
+2025-05-25 20:36:44,188 - prepare_energy_grid.log - INFO - 294-4_bpy_dmso_acetone energy grid success
+2025-05-25 20:36:44,189 - prepare_energy_grid.log - INFO - 294-4_bpy_dmso_acetone energy grid changed to np16
+2025-05-25 20:36:45,467 - prepare_energy_grid.log - INFO - 25_1499633_x-ph energy grid success
+2025-05-25 20:36:45,469 - prepare_energy_grid.log - INFO - 25_1499633_x-ph energy grid changed to np16
+2025-05-25 20:36:47,419 - prepare_energy_grid.log - INFO - 2_g4bbs1 energy grid success
+2025-05-25 20:36:47,421 - prepare_energy_grid.log - INFO - 2_g4bbs1 energy grid changed to np16
+2025-05-25 20:42:10,759 - prepare_energy_grid.log - INFO - 219n-hexanehof-tri-pmdi-br energy grid success
+2025-05-25 20:42:10,761 - prepare_energy_grid.log - INFO - 219n-hexanehof-tri-pmdi-br energy grid changed to np16
+2025-05-25 20:42:12,536 - prepare_energy_grid.log - INFO - 139_2052953_phnh2fju-200 energy grid success
+2025-05-25 20:42:12,539 - prepare_energy_grid.log - INFO - 139_2052953_phnh2fju-200 energy grid changed to np16

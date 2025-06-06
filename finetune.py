@@ -16,8 +16,9 @@ task = 'solvent'
 downstream = task
 log_dir = f'{BASE_LOG}/solvent/fold{fold}/finetune'
 os.makedirs(log_dir, exist_ok=True)
-cifs_path = './data/hof_database_cifs_raw/total'
-load_path = './ckpt/pretrain_real_hofdiff_best.ckpt'  # Pretrained model path
+# cifs_path = './data/hof_database_cifs_raw/total'
+cifs_path = './data/HOF_cif/total'
+load_path = '/mnt/user2/wty/HOF/logs/HOF_pretrain_new/fold4/nh_na/pretrained_mof_seed0_from_/version_8/checkpoints/best.ckpt'  # Pretrained model path
 
 hofnet.run(
     root_dataset, downstream, log_dir=log_dir,                   

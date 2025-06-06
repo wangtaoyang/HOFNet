@@ -1,5 +1,6 @@
 # hofnet version 2.1.3
 import os
+from pydantic import NoneBytes
 from sacred import Experiment
 from hofnet import __root_dir__
 from hofnet.utils.validation import _set_load_path, _loss_names
@@ -60,6 +61,7 @@ def config():
     warmup_steps = 0.05  # int or float ( max_steps * warmup_steps)
     end_lr = 0
     lr_mult = 1  # multiply lr for downstream heads
+    early_stop_patience = None
 
     # PL Trainer Setting
     resume_from = None

@@ -12,9 +12,11 @@ version = 0
 seed = 0
 checkpoint = 'best'
 log_dir = Path('./logs') / task / fold
-load_path = Path('./ckpt/real_hofdiff_best.ckpt')
+load_path = Path('/mnt/user2/wty/HOF/logs/solvent/fold0/nh_na/pretrained_mof_seed0_from_best/version_44/checkpoints/best.ckpt')
+# load_path = Path('/mnt/user2/wty/HOFNet/logs/solvent/foldfold0/finetune/pretrained_mof_seed0_from_best/version_0/checkpoints/best.ckpt')
 root_dataset = f'./data/HOF_solvent/{fold}'
-cifs_path = ".data/hof_database_cifs_raw/total"
+# cifs_path = ".data/hof_database_cifs_raw/total"
+cifs_path = "/mnt/user2/wty/HOF/MOFDiff/mofdiff/data/mof_models/mof_models/bwdb_hoff/hofchecker/total"
 devices = [0]
 losses_name = 'solvent_classification'
 
